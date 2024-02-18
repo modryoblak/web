@@ -1,8 +1,12 @@
+---
+const githubPagesUrlProblem = fetch(Astro.url.toString() + "/zbor-traditional.png").then((response) => { if (response.ok) return false; return true; });
+const zborTraditionalUrl = await githubPagesUrlProblem ? "/landing-page-koncept/zbor-traditional.png" : "/zbor-traditional.png";
+---
+
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-        <!-- TODO: Change logo href when published on a custom domain -->
-		<link rel="icon" type="image/png" href="/landing-page-koncept/zbor-traditional.png" />
+		<link rel="icon" type="image/png" href={zborTraditionalUrl} />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
         <script src="https://unpkg.com/htmx.org@1.9.10"></script>

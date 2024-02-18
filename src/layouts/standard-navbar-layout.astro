@@ -1,11 +1,14 @@
 ---
 import BaseLayout from "./base-layout.astro";
+
+const githubPagesUrlProblem = fetch(Astro.url.toString() + "/zbor-slsk.png").then((response) => { if (response.ok) return false; return true; });
+const zborSlskUrl = await githubPagesUrlProblem ? "/landing-page-koncept/zbor-slsk.png" : "/zbor-slsk.png";
 ---
 
 <BaseLayout>
     <header class="flex flex-row justify-between pl-8 pr-12 py-6">
         <figure class="flex flex-row items-center">
-            <img src="/zbor-slsk.png" alt="" class="h-[4.5rem]" />
+            <img src={zborSlskUrl} alt="" class="h-[4.5rem]" />
         </figure>
         
         <nav class="flex flex-row items-center">
