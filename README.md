@@ -7,7 +7,7 @@
 
 Skúšam to momentálne v Astro.js pre jeho prístupnosť, jednoduchosť a efektivitu na client-side.
 
-## Kompletný zoznam
+### Kompletný zoznam
 
 Stránka mometálne používa:
 
@@ -32,9 +32,13 @@ Add navbar
 ```
 Remove unnecessary dependencies
 ```
-# Dodatočné srandy
 
-## Json forma SLSK palety a zborových farieb
+# Dodatočné srandy 🍝
+
+## Paleta
+
+Paleta vizuálnej identity SLSK a zborových farieb vo forme `.json` dokumentu:
+
 ```js
 {
   'slsk-dark-purple': '#702f8a',
