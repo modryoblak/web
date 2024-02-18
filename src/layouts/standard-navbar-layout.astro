@@ -1,9 +1,9 @@
 ---
 import BaseLayout from "./base-layout.astro";
 
-import RequestImage from "../util/request-image.js";
+import PagesUrl from "../util/pages-url.js";
 
-const zborSlskUrl = await RequestImage(Astro.url.origin, "/zbor-slsk.png");
+const zborSlskUrl = await PagesUrl(Astro.url.origin, "/zbor-slsk.png");
 ---
 
 <BaseLayout>

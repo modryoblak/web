@@ -1,7 +1,7 @@
 ---
-import RequestImage from "../util/request-image.js";
+import PagesUrl from "../util/pages-url.js";
 
-const zborTraditionalUrl = await RequestImage(Astro.url.origin, "/zbor-traditional.png");
+const zborTraditionalUrl = await PagesUrl(Astro.url.origin, "/zbor-traditional.png");
 ---
 
 <!DOCTYPE html>
