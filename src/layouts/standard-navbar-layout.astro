@@ -2,7 +2,7 @@
 import BaseLayout from "./base-layout.astro";
 
 const githubPagesUrlProblem = fetch(Astro.url.origin + "/zbor-slsk.png").then((response) => { if (response.ok) return false; return true; });
-const zborSlskUrl = await githubPagesUrlProblem ? "/landing-page-koncept/zbor-slsk.png" : "/zbor-slsk.png";
+const zborSlskUrl = await githubPagesUrlProblem ? "/concept-landing/zbor-slsk.png" : "/zbor-slsk.png";
 ---
 
 <BaseLayout>
