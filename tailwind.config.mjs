@@ -4,8 +4,8 @@ export default {
 	theme: {
 		extend: {
             colors: {
-                'slsk-dark-purple': '702f8a',
-                'slsk-lavender': 'b580d1',
+                'slsk-dark-purple': '#702f8a',
+                'slsk-lavender': '#b580d1',
                 'slsk-dark-blue': '#002855',
                 'slsk-blue': '#004b87',
                 'slsk-aqua': '#00b5e2',
