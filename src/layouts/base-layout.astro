@@ -1,6 +1,7 @@
 ---
-const githubPagesUrlProblem = fetch(Astro.url.origin + "/zbor-traditional.png").then((response) => { if (response.ok) return false; return true; });
-const zborTraditionalUrl = await githubPagesUrlProblem ? "/concept-landing/zbor-traditional.png" : "/zbor-traditional.png";
+import RequestImage from "../util/request-image.js";
+
+const zborTraditionalUrl = await RequestImage(Astro.url.origin, "/zbor-traditional.png");
 ---
 
 <!DOCTYPE html>

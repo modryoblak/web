@@ -1,8 +1,9 @@
 ---
 import BaseLayout from "./base-layout.astro";
 
-const githubPagesUrlProblem = fetch(Astro.url.origin + "/zbor-slsk.png").then((response) => { if (response.ok) return false; return true; });
-const zborSlskUrl = await githubPagesUrlProblem ? "/concept-landing/zbor-slsk.png" : "/zbor-slsk.png";
+import RequestImage from "../util/request-image.js";
+
+const zborSlskUrl = await RequestImage(Astro.url.origin, "/zbor-slsk.png");
 ---
 
 <BaseLayout>
@@ -16,7 +17,7 @@ const zborSlskUrl = await githubPagesUrlProblem ? "/concept-landing/zbor-slsk.pn
         </svg>
     </div>
 
-    <header class="flex flex-row justify-between pl-8 pr-12 py-4">
+    <header class="fixed w-full flex flex-row justify-between pl-8 pr-12 py-4">
         <figure class="flex flex-row items-center">
             <a aria-label="Modrý oblak" href="/">
                 <img src={zborSlskUrl} alt="" class="h-[4.5rem]" />
@@ -61,4 +62,6 @@ const zborSlskUrl = await githubPagesUrlProblem ? "/concept-landing/zbor-slsk.pn
           <circle cx="500" cy="90" r="100" />
         </svg>
     </div>
+
+    <slot />
 </BaseLayout>
