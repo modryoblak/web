@@ -1,0 +1,27 @@
+---
+import StandardNavbarLayout from "../layouts/standard-navbar-layout.astro";
+
+import Pageslash from "../util/pageslash.js";
+
+const pageslash = Pageslash(Astro.url.hostname);
+---
+
+<StandardNavbarLayout>
+    <section class="px-[30vw] flex flex-col gap-12 items-center text-slsk-dark-blue text-xl">
+        <h2 class="font-bold text-4xl text-slsk-dark-blue text-center">O nás</h2>
+        <h1 class="font-bold text-6xl text-slsk-aqua mb-8 text-center">61. zbor Modrý oblak</h1>
+        <p>Skauting je najväčšie celosvetové výchovné hnutie pre deti a mladých s vyše storočnou tradíciou.</p>
+        <img src={pageslash + "landing-image.png"} alt="Fotka táboriska" class="w-full max-h-[25vw] object-cover rounded-lg" />
+        <p>Skauti objavujú svet mimo školských lavíc. Hľadajú dobrodružstvo s partiou priateľov, v ktorej môže
+        každý prežívať slobodu a pocit, že niekam patrí. Prostredníctvom pravidelných stretnutí plných hier,
+        všestranných aktivít, a pobytu v prírode získavajú deti a mladí užitočné návyky, zručnosti a vlastnosti,
+        ktoré ich pripravia na život.</p>
+        <p>Skauting učí tímovej spolupráci, organizačným zručnostiam, umeniu zorientovať sa vo svete a žiť podľa
+        hodnôt ako je čestnosť, odvaha a starostlivosť o seba a svoje okolie. Záleží nám na tom, aby skauti a
+        skautky v dospelosti obstáli vo svete ako charakterní ľudia a lídri ochotní podeliť sa o svoje schopnosti
+        a zručnosti v snahe urobiť svet lepším.</p>
+        <p>Vďaka stovkám dobrovoľníkov má vyše 7000 detí a mladých na Slovensku možnosť tráviť svoj čas zmysluplne,
+        hodnotne a naplno, a pritom sa naučiť zručnosti, ktoré budú môcť využiť pre seba a spoločnosť.</p>
+    </section>
+</StandardNavbarLayout>
+

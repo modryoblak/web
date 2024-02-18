@@ -1,13 +1,13 @@
 ---
 import BaseLayout from "./base-layout.astro";
 
-import PagesUrl from "../util/pages-url.js";
+import Pageslash from "../util/pageslash.ts";
 
-const zborSlskUrl = await PagesUrl(Astro.url.origin, "/zbor-slsk.png");
+const pageslash = await Pageslash(Astro.url.hostname);
 ---
 
 <BaseLayout>
-    <div class="absolute top-[-75px] left-0 w-[500px] z-[-10]">
+    <div class="absolute top-[-75px] left-0 w-[500px] z-30">
         <svg viewBox="0 0 500 300" class="fill-slsk-aqua opacity-20">
           <circle cx="50" cy="80" r="130" />
           <circle cx="175" cy="90" r="100" />
@@ -17,25 +17,27 @@ const zborSlskUrl = await PagesUrl(Astro.url.origin, "/zbor-slsk.png");
         </svg>
     </div>
 
-    <header class="fixed w-full flex flex-row justify-between pl-8 pr-12 py-4">
+    <div id="background" aria-hidden="true" class="fixed top-0 left-0 w-full h-24 bg-slsk-white z-20" />
+
+    <header class="fixed w-full flex flex-row justify-between pl-8 pr-12 py-4 z-40">
         <figure class="flex flex-row items-center">
-            <a aria-label="Modrý oblak" href="/">
-                <img src={zborSlskUrl} alt="" class="h-[4.5rem]" />
+            <a aria-label="Modrý oblak" href={pageslash}>
+                <img src={pageslash + "zbor-slsk.png"} alt="" class="h-[4.5rem]" />
             </a>
         </figure>
         
         <nav class="hidden 2xl:flex flex-row items-center pl-[3.5vw]">
             <ul class="flex flex-row gap-10 items-center text-md text-slsk-aqua font-semibold hover:[&_a]:underline">
-                <li><a href="/">O nás</a></li>
-                <li><a href="/">Pre členov</a></li>
-                <li><a href="/">Akcie</a></li>
-                <li><a href="/">Klubovňa</a></li>
-                <li><a href="/">Kontakt</a></li>
+                <li><a href={pageslash + "o-nas"}>O nás</a></li>
+                <li><a href={pageslash + "clen"}>Pre členov</a></li>
+                <li><a href={pageslash + "akcie"}>Akcie</a></li>
+                <li><a href={pageslash + "klubovna"}>Klubovňa</a></li>
+                <li><a href={pageslash + "kontakt"}>Kontakt</a></li>
             </ul>
         </nav>
 
         <figure class="flex flex-row gap-5 items-center">
-            <a href="/" class="hidden sm:block px-4 py-1.5 bg-slsk-aqua font-bold text-slsk-white rounded-full hover:bg-slsk-gold transition-[all_0.2s]">
+            <a href={pageslash + "pridaj-sa"} class="hidden sm:block px-4 py-1.5 bg-slsk-aqua font-bold text-slsk-white rounded-full hover:bg-slsk-gold transition-[all_0.2s]">
                 Pridaj sa k nám!
             </a>
             <span class="material-symbols-rounded scale-[1.2] text-slsk-aqua cursor-pointer hover:text-slsk-blue">
@@ -53,7 +55,7 @@ const zborSlskUrl = await PagesUrl(Astro.url.origin, "/zbor-slsk.png");
         </figure>
     </header>
 
-    <div class="hidden lg:block absolute top-[-75px] right-0 w-[600px] z-[-10]">
+    <div class="hidden lg:block absolute top-[-75px] right-0 w-[600px] z-30">
         <svg viewBox="0 0 550 300" class="fill-slsk-aqua opacity-20">
           <circle cx="150" cy="30" r="70" />
           <circle cx="220" cy="50" r="90" />
@@ -63,7 +65,7 @@ const zborSlskUrl = await PagesUrl(Astro.url.origin, "/zbor-slsk.png");
         </svg>
     </div>
 
-    <main class="pt-64">
+    <main class="py-44">
         <slot />
     </main>
 </BaseLayout>

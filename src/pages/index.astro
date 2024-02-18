@@ -1,9 +1,10 @@
 ---
 import StandardNavbarLayout from "../layouts/standard-navbar-layout.astro";
+
+import Pageslash from "../util/pageslash.js";
+
+const pageslash = Pageslash(Astro.url.hostname);
 ---
 
 <StandardNavbarLayout>
-    <section class="text-center">
-        <h1 class="font-bold text-6xl text-slsk-aqua">61. zbor Modrý oblak</h1>
-    </section>
 </StandardNavbarLayout>

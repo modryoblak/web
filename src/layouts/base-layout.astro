@@ -1,14 +1,14 @@
 ---
-import PagesUrl from "../util/pages-url.js";
+import Pageslash from "../util/pageslash.ts";
 
-const zborTraditionalUrl = await PagesUrl(Astro.url.origin, "/zbor-traditional.png");
+const pageslash = await Pageslash(Astro.url.hostname);
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 	<head>
         <title>Modrý oblak</title>
-        <link rel="icon" type="image/png" href={zborTraditionalUrl} />
+        <link rel="icon" type="image/png" href={pageslash + "zbor-traditional.png"} />
 
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
