@@ -18,12 +18,10 @@ const zborSlskUrl = await githubPagesUrlProblem ? "/landing-page-koncept/zbor-sl
 
     <header class="flex flex-row justify-between pl-8 pr-12 py-4">
         <figure class="flex flex-row items-center">
-            <a href="/">
-                <img src={zborSlskUrl} alt="" class="h-[4.5rem]" />
-            </a>
+            <img src={zborSlskUrl} alt="" class="h-[4.5rem]" />
         </figure>
         
-        <nav class="hidden 2xl:flex flex-row items-center pl-[5vw]">
+        <nav class="flex flex-row items-center">
             <ul class="flex flex-row gap-10 items-center text-md text-slsk-aqua font-semibold hover:[&_a]:underline">
                 <li><a href="/">O nás</a></li>
                 <li><a href="/">Pre členov</a></li>
@@ -33,26 +31,18 @@ const zborSlskUrl = await githubPagesUrlProblem ? "/landing-page-koncept/zbor-sl
             </ul>
         </nav>
 
-        <figure class="flex flex-row gap-5 items-center">
-            <a href="/" class="hidden sm:block px-4 py-1.5 bg-slsk-aqua font-bold text-slsk-white rounded-full hover:bg-slsk-gold transition-[all_0.2s]">
+        <figure class="flex flex-row gap-6 items-center">
+            <a href="/" class="px-4 py-1.5 bg-slsk-aqua font-bold text-slsk-white rounded-full hover:bg-slsk-gold transition-[all_0.2s]">
                 Pridaj sa k nám!
             </a>
-            <span class="material-symbols-rounded scale-[1.2] text-slsk-aqua cursor-pointer hover:text-slsk-blue">
+            <span class="material-symbols-rounded scale-[1.2] text-slsk-aqua cursor-pointer">
                 search
             </span>
-            <a href="https://instagram.com/modryoblak" target="blank" class="hidden 2xl:block">
-                <i class="fa-brands fa-instagram scale-[1.7] text-slsk-aqua hover:text-slsk-blue"></i>
-            </a>
-            <a href="https://facebook.com/ModryOblak" target="_blank" class="hidden 2xl:block">
-                <i class="pl-[0.22rem] fa-brands fa-facebook scale-[1.65] text-slsk-aqua hover:text-slsk-blue"></i>
-            </a>
-            <button class="pl-2 2xl:hidden">
-                <i class="fa-solid fa-bars scale-[1.7] text-slsk-aqua hover:text-slsk-blue"></i>
-            </button>
+            <i class="fa-brands fa-instagram scale-[1.2] text-slsk-aqua"></i>
         </figure>
     </header>
 
-    <div class="hidden lg:block absolute top-[-75px] right-0 w-[600px] z-[-10]">
+    <div class="absolute top-[-75px] right-0 w-[600px] z-[-10]">
         <svg viewBox="0 0 550 300" class="fill-slsk-aqua opacity-20">
           <circle cx="150" cy="30" r="70" />
           <circle cx="220" cy="50" r="90" />
