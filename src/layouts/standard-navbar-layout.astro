@@ -12,7 +12,7 @@ const zborSlskUrl = await githubPagesUrlProblem ? "/landing-page-koncept/zbor-sl
         </figure>
         
         <nav class="flex flex-row items-center">
-            <ul class="flex flex-row gap-10 items-center text-md text-slsk-aqua font-semibold">
+            <ul class="flex flex-row gap-10 items-center text-md text-slsk-aqua font-semibold hover:[&_a]:underline">
                 <li><a href="/">O nás</a></li>
                 <li><a href="/">Pre členov</a></li>
                 <li><a href="/">Akcie</a></li>
@@ -21,8 +21,11 @@ const zborSlskUrl = await githubPagesUrlProblem ? "/landing-page-koncept/zbor-sl
             </ul>
         </nav>
 
-        <figure class="flex flex-row items-center text-slsk-aqua">
-            <span class="material-symbols-rounded scale-110">
+        <figure class="flex flex-row gap-6 items-center">
+            <a href="/" class="px-4 py-1.5 bg-slsk-aqua font-bold text-slsk-white rounded-full hover:bg-slsk-gold transition-[all_0.2s]">
+                Pridaj sa k nám!
+            </a>
+            <span class="material-symbols-rounded scale-[1.2] text-slsk-aqua cursor-pointer">
                 search
             </span>
         </figure>
