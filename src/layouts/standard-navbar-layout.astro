@@ -3,7 +3,7 @@ import BaseLayout from "./base-layout.astro";
 
 import Pageslash from "../util/pageslash.ts";
 
-const pageslash = await Pageslash(Astro.url.hostname);
+const pageslash = Pageslash(Astro.url.hostname);
 ---
 
 <BaseLayout>
@@ -19,14 +19,14 @@ const pageslash = await Pageslash(Astro.url.hostname);
 
     <div id="background" aria-hidden="true" class="fixed top-0 left-0 w-full h-24 bg-slsk-white z-20" />
 
-    <header class="fixed w-full flex flex-row justify-between pl-8 pr-12 py-4 z-40">
+    <header class="fixed w-full flex flex-row justify-between 2xl:grid grid-cols-[1fr_3fr_1fr] pl-3 pr-7 py-4 z-40">
         <figure class="flex flex-row items-center">
             <a aria-label="Modrý oblak" href={pageslash}>
                 <img src={pageslash + "zbor-slsk.png"} alt="" class="h-[4.5rem]" />
             </a>
         </figure>
         
-        <nav class="hidden 2xl:flex flex-row items-center pl-[3.5vw]">
+        <nav class="hidden 2xl:flex flex-row items-center justify-center">
             <ul class="flex flex-row gap-10 items-center text-md text-slsk-aqua font-semibold hover:[&_a]:underline">
                 <li><a href={pageslash + "o-nas"}>O nás</a></li>
                 <li><a href={pageslash + "clen"}>Pre členov</a></li>
@@ -36,7 +36,7 @@ const pageslash = await Pageslash(Astro.url.hostname);
             </ul>
         </nav>
 
-        <figure class="flex flex-row gap-5 items-center">
+        <figure class="flex flex-row gap-5 items-center justify-end">
             <a href={pageslash + "pridaj-sa"} class="hidden sm:block px-4 py-1.5 bg-slsk-aqua font-bold text-slsk-white rounded-full hover:bg-slsk-gold transition-[all_0.2s]">
                 Pridaj sa k nám!
             </a>
@@ -65,7 +65,7 @@ const pageslash = await Pageslash(Astro.url.hostname);
         </svg>
     </div>
 
-    <main class="py-44">
+    <main class="px-[3vw] text-center sm:px-[20vw] sm:text-left lg:px-[30vw] py-44">
         <slot />
     </main>
 </BaseLayout>

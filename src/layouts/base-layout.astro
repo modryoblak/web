@@ -1,7 +1,7 @@
 ---
 import Pageslash from "../util/pageslash.ts";
 
-const pageslash = await Pageslash(Astro.url.hostname);
+const pageslash = Pageslash(Astro.url.hostname);
 ---
 
 <!DOCTYPE html>
@@ -27,7 +27,7 @@ const pageslash = await Pageslash(Astro.url.hostname);
         <!-- fontawesome -->
         <script src="https://kit.fontawesome.com/22e17713fb.js" crossorigin="anonymous"></script>
 	</head>
-	<body class="bg-slsk-white font-georama text-slsk-black">
+	<body class="bg-slsk-white font-georama text-slsk-black overflow-x-hidden">
         <slot />
 	</body>
 </html>
