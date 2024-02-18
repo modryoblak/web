@@ -3,12 +3,14 @@ const githubPagesUrlProblem = fetch(Astro.url.origin + "/zbor-traditional.png").
 const zborTraditionalUrl = await githubPagesUrlProblem ? "/landing-page-koncept/zbor-traditional.png" : "/zbor-traditional.png";
 ---
 
+<!DOCTYPE html>
 <html lang="en">
 	<head>
         <title>Modrý oblak</title>
+        <link rel="icon" type="image/png" href={zborTraditionalUrl} />
+
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/png" href={zborTraditionalUrl} />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="generator" content={Astro.generator} />
 
         <!-- htmx -->
