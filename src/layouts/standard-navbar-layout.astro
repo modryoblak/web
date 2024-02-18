@@ -63,5 +63,7 @@ const zborSlskUrl = await RequestImage(Astro.url.origin, "/zbor-slsk.png");
         </svg>
     </div>
 
-    <slot />
+    <main class="pt-64">
+        <slot />
+    </main>
 </BaseLayout>
