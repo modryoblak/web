@@ -23,7 +23,7 @@ Verím, že ohľadom technológie bude ešte kopec diskusie, takže rekreácie s
 
 ### Commits
 
-Commits prosím v angličtine (ak možné) a v prítomnom čase.
+Commits prosím v angličtine (ak možné) a v neurčitom čase.
 
 Príklady:
 ```
