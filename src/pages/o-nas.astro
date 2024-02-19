@@ -1,18 +1,38 @@
 ---
 import StandardNavbarLayout from "../layouts/standard-navbar-layout.astro";
+import PridajSa from "../components/pridaj-sa.astro";
+import Anchor from "../components/styled/anchor.astro";
+import Header1 from "../components/styled/header1.astro";
+import Header2 from "../components/styled/header2.astro";
+import Header3 from "../components/styled/header3.astro";
+import List from "../components/styled/list.astro";
 
-import Pageslash from "../util/pageslash.js";
+import Pageslash from "../util/pageslash.ts";
 
 const pageslash = Pageslash(Astro.url.hostname);
 ---
 
 <StandardNavbarLayout>
     <section class="flex flex-col gap-12 items-center text-slsk-dark-blue text-xl">
-        <img src={pageslash + "zbor-traditional.png"} alt="Zborová nášivka" class="w-36 border-slsk-dark-blue border-[3px] rounded-full" />
-        <h2 class="font-bold text-4xl text-slsk-dark-blue text-center">O nás</h2>
-        <h1 class="font-bold text-6xl text-slsk-aqua mb-8 text-center">61. zbor Modrý oblak</h1>
+        <Header2>O nás</Header2>
+        <Header1>61. zbor Modrý oblak</Header1>
+        <p>Skauting má v Pezinku dlhoročnú tradíciu. Bez prerušenia činnosti tu fungujeme už viac ako
+        <b>30 rokov</b>. Počiatky skautingu v Pezinku však siahajú ešte o čosi hlbšie do histórie.</p>
+        <p>Náš skautský zbor má viac ako 200 členov a od roku 2020 sme
+        najväčší skautský zbor v Bratislavskom kraji. Stabilne si tiež držíme miesto v <b>top 3</b> najväčších zboroch na Slovensku.</p>
+        <img src={pageslash + "landing-image.png"} alt="Fotka táboriska" class="max-h-[25vw] object-cover rounded-lg" />
+        <p>O skauting je veľký záujem, preto náš skautský zbor aktuálne pôsobí v 4 lokalitách:</p>
+        <List>
+            <li><b>Pezinok, Cajla</b></li>
+            <li>Pezinok, Grinava</li>
+            <li>Viničné</li>
+            <li>SZŠ Felix Bratislava</li>
+        </List>
+        <Header3>Zborový vodca</Header3>
+        <p>Náš zbor aktuálne vedie <b>Vendelín "Vendetta" Krasňanský</b>. Spolu so zborovou radou a ostatnými
+        dobrovoľníkmi vedie náš zbor.</p>
+        <Header1>Skauting</Header1>
         <p>Skauting je najväčšie celosvetové výchovné hnutie pre deti a mladých s vyše storočnou tradíciou.</p>
-        <img src={pageslash + "landing-image.png"} alt="Fotka táboriska" class="w-full max-h-[25vw] object-cover rounded-lg" />
         <p>Skauti objavujú svet mimo školských lavíc. Hľadajú dobrodružstvo s partiou priateľov, v ktorej môže
         každý prežívať slobodu a pocit, že niekam patrí. Prostredníctvom pravidelných stretnutí plných hier,
         všestranných aktivít, a pobytu v prírode získavajú deti a mladí užitočné návyky, zručnosti a vlastnosti,
@@ -23,6 +43,32 @@ const pageslash = Pageslash(Astro.url.hostname);
         a zručnosti v snahe urobiť svet lepším.</p>
         <p>Vďaka stovkám dobrovoľníkov má vyše 7000 detí a mladých na Slovensku možnosť tráviť svoj čas zmysluplne,
         hodnotne a naplno, a pritom sa naučiť zručnosti, ktoré budú môcť využiť pre seba a spoločnosť.</p>
+        <Header1>Skautská činnosť</Header1>
+        <p>Základom skautskej činnosti je družinový život. Družina je skupinka približne 6 až 8 členov, ktorí sa
+        stretávajú každý týždeň počas školského roka v klubovni na spoločných stretnutiach.</p>
+        <p>Skauti sa tiež zúčastňujú rôznych jednodňových výletov alebo víkendových akcií. Niekoľkokrát v roku sa všetci
+        tiež stretávame na veľkých akciách pre celý zbor alebo pre verejnosť. Príležitostne vyrazíme tiež do zahraničia,
+        spoznať nepoznané kúty sveta, dozvedieť sa viac o iných kultúrach a stretnúť skautov z iných krajín.
+        No to, na čo sa tešíme najviac, sú naše letné tábory. Týždeň pod stanom je napriek všetkému nepohodliu
+        (alebo azda práve preto) zážitkom, na aký sa nezabúda.</p>
+        <Header3>Verejnosť</Header3>
+        <p>Okrem našej bežnej činnosti venovanej skautským členom nás môže verejnosť stretnúť napríklad na Alegorickom
+        sprievode na Vinobraní, pri odpaľovaní Betlehemského svetla alebo na komunitných akciách, ktoré organizujeme aj
+        pre neskautov, ako Večer spoločenských hier, Otvorenie a Ukončenie skautského roka a iné.</p>
+        <p>V rámci iniciatívy Skautská služba sme sa tiež aktívne zapájali do pomoci Penzinčanom počas pandémie.</p>
+        <p>Viac o tom, k čomu vychováva skautský program si môžete prečítať <Anchor href="https://www.skauting.sk/verejnost/rodicia/co-skauting-ponuka/">tu</Anchor>.</p>
+        <Header1>Skauti v každom veku</Header1>
+        <p>Našu skautskú komunitu tvoria ľudia každého veku. Napriek vekovým rozdielom fungujeme na veľmi neformálnej báze, preto si všetci tykáme.</p>
+        <p>Na skauting prijímame deti od veku 6 rokov, ted od začiatku školskej dochádzky. Nie je však vôbec výnimkou, že sa k nám niekto pridá neskôr.
+        Každá veková kategória má program prispôsobený svojmu veku a záujmom, aby skautská činnosť našich členov bavila a zároveň rozvíjala.
+        V skupine rovesníkov si skauti taktiež budujú pevné a dlhoročné priateľstvá.</p>
+        <Header1>Chceš sa k nám pridať?</Header1>
+        <p>Či už sa chceš pridať ako člen alebo dobrovoľník, radi ťa privítame v našej skautskej komunite.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/miHWZcn3ax4?si=i8snCjCWnfAjGPay" title="YouTube video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+        class="w-full rounded-lg"></iframe>
+        <PridajSa pageslash={pageslash} />
+        <img src={pageslash + "zbor-traditional.png"} alt="Zborová nášivka" class="special w-36 mt-12 border-slsk-dark-blue border-[3px] rounded-full" />
     </section>
 </StandardNavbarLayout>
 
