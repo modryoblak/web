@@ -9,24 +9,22 @@ const pageslash = Pageslash(Astro.url.hostname);
 <BaseLayout>
     <div class="absolute top-[-75px] left-0 w-[500px] max-w-full z-30">
         <svg viewBox="0 0 500 300" class="fill-slsk-aqua opacity-20">
-          <circle cx="50" cy="80" r="130" />
-          <circle cx="175" cy="90" r="100" />
-          <circle cx="300" cy="60" r="75" />
-          <circle cx="370" cy="50" r="70" />
-          <circle cx="430" cy="40" r="60" />
+            <circle cx="50" cy="80" r="130" />
+            <circle cx="175" cy="90" r="100" />
+            <circle cx="275" cy="60" r="75" />
         </svg>
     </div>
 
     <div id="background" aria-hidden="true" class="fixed top-0 left-0 w-full h-24 bg-slsk-white z-20" />
 
-    <header class="fixed w-full flex flex-row justify-between 2xl:grid grid-cols-[1fr_3fr_1fr] pl-3 pr-7 py-4 z-40">
+    <header class="fixed w-full flex flex-row justify-between xl:grid grid-cols-[1fr_2fr_1fr] pl-3 pr-7 py-4 z-40">
         <figure class="flex flex-row items-center">
             <a aria-label="Modrý oblak" href={pageslash}>
                 <img src={pageslash + "zbor-slsk.png"} alt="" class="h-[4.5rem]" />
             </a>
         </figure>
         
-        <nav class="hidden 2xl:flex flex-row items-center justify-center">
+        <nav class="hidden xl:flex flex-row items-center justify-center">
             <ul class="flex flex-row gap-10 items-center text-md text-slsk-aqua font-semibold hover:[&_a]:underline">
                 <li><a href={pageslash + "o-nas"}>O nás</a></li>
                 <li><a href={pageslash + "clen"}>Pre členov</a></li>
@@ -43,25 +41,24 @@ const pageslash = Pageslash(Astro.url.hostname);
             <span class="material-symbols-rounded scale-[1.2] text-slsk-aqua cursor-pointer hover:text-slsk-blue">
                 search
             </span>
-            <a aria-label="Instagram" href="https://instagram.com/modryoblak" target="blank" class="hidden 2xl:block">
+            <a aria-label="Instagram" href="https://instagram.com/modryoblak" target="blank" class="hidden xl:block">
                 <i class="fa-brands fa-instagram scale-[1.7] text-slsk-aqua hover:text-slsk-blue"></i>
             </a>
-            <a aria-label="Facebook" href="https://facebook.com/ModryOblak" target="_blank" class="hidden 2xl:block">
+            <a aria-label="Facebook" href="https://facebook.com/ModryOblak" target="_blank" class="hidden xl:block">
                 <i class="pl-[0.22rem] fa-brands fa-facebook scale-[1.65] text-slsk-aqua hover:text-slsk-blue"></i>
             </a>
-            <button class="pl-2 2xl:hidden">
+            <button class="pl-2 xl:hidden">
                 <i class="fa-solid fa-bars scale-[1.7] text-slsk-aqua hover:text-slsk-blue"></i>
             </button>
         </figure>
     </header>
 
-    <div class="hidden lg:block absolute top-[-75px] right-0 w-[600px] max-w-full z-30">
+    <div class="hidden md:block absolute top-[-75px] right-0 w-[600px] max-w-full z-30">
         <svg viewBox="0 0 550 300" class="fill-slsk-aqua opacity-20">
-          <circle cx="150" cy="30" r="70" />
-          <circle cx="220" cy="50" r="90" />
-          <circle cx="300" cy="85" r="100" />
-          <circle cx="390" cy="80" r="100" />
-          <circle cx="500" cy="90" r="100" />
+            <circle cx="260" cy="60" r="50" />
+            <circle cx="330" cy="85" r="90" />
+            <circle cx="410" cy="100" r="100" />
+            <circle cx="500" cy="90" r="100" />
         </svg>
     </div>
 
