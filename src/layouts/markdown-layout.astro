@@ -1,0 +1,13 @@
+---
+import StandardNavbarLayout from "./standard-navbar-layout.astro";
+
+import "../styles/markdown.css";
+
+const { frontmatter } = Astro.props;
+---
+
+<StandardNavbarLayout>
+    <section class="md flex flex-col gap-12 items-center text-left">
+        <slot />
+    </section>
+</StandardNavbarLayout>

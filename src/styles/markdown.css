@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.md {
+    @apply text-xl text-slsk-dark-blue;
+}
+
+.md h1 {
+    @apply w-full py-6 text-6xl font-bold text-slsk-aqua text-center;
+}
+
+.md h2 {
+    @apply w-full py-2 text-4xl font-bold text-slsk-aqua;
+}
+
+.md h3 {
+    @apply w-full py-1 text-4xl font-bold text-slsk-dark-blue text-center;
+}
+
+.md h4 {
+    @apply w-full text-2xl font-bold text-slsk-dark-blue;
+}
+
+.md a:not(.button) {
+    @apply font-semibold text-slsk-aqua hover:underline;
+}
+
+.md ul {
+    @apply w-full pl-8 list-disc;
+}
+
+.md img, .md video, .md iframe {
+    @apply w-full object-cover rounded-lg;
+}
+
+.md p:has(img), .md p:has(video), .md p:has(iframe) {
+    width: 100%;
+}
