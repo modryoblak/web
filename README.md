@@ -63,3 +63,17 @@ Paleta vizuálnej identity SLSK a zborových farieb vo forme `.json` dokumentu:
   'zbor-yellow': '#fef200',
 }
 ```
+
+## Toto si tak silno pridám na portfólio až sa bude prášiť goddamn tá stránka vyzerá dobre 🤩
+
+Život je často veľmi nudný a nezáživný a bolestivý ale raz za čas príde stránka ako táto a hneď sú všade konfety a jednorožce.
+
+Prečo nemôže každý web byť takýto úžasný?
+
+A ešte lepšie: ten web na kliente načítava dokopy 0 Javascriptu (mimo fontov) vďaka Astro.js a nechápem ako bez tohoto môže osobnosť žiť na svoj plný potenciál. Teda nemôže...
+
+Tento web je v skutku tak dobrý, že sa teraz idem vyspať a môže svet vybuchnúť bude mi to jedno.
+
+Táto stránka odošle prvých astronautov na Saturn v roku 2054.
+
+Keď táto stránka raz neodvratne upadne do zabudnutia ako ďalší vedľajší projekt v knižnici stoviek (insertni tuto ten Buzz Lightyear meme vieš ktorý myslím) tak svet bude opäť o niečo horší a peklo o niečo horúcejšie.
