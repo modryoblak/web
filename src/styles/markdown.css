@@ -7,19 +7,23 @@
 }
 
 .md h1 {
-    @apply w-full py-6 text-6xl font-bold text-slsk-aqua text-center;
+    @apply w-full pt-10 pb-4 text-6xl font-bold text-slsk-aqua text-center;
 }
 
 .md h2 {
-    @apply w-full py-2 text-4xl font-bold text-slsk-aqua;
+    @apply w-full text-4xl font-bold text-slsk-aqua;
 }
 
 .md h3 {
-    @apply w-full py-1 text-4xl font-bold text-slsk-dark-blue text-center;
+    @apply w-full text-4xl font-bold text-slsk-dark-blue text-center;
 }
 
 .md h4 {
     @apply w-full text-2xl font-bold text-slsk-dark-blue;
+}
+
+.md p {
+    width: 100%;
 }
 
 .md a:not(.button) {
@@ -31,7 +35,7 @@
 }
 
 .md img, .md video, .md iframe {
-    @apply w-full object-cover rounded-lg;
+    @apply w-full rounded-lg;
 }
 
 .md p:has(img), .md p:has(video), .md p:has(iframe) {
