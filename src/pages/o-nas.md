@@ -33,7 +33,7 @@ Náš zbor aktuálne vedie **Vendelín "Vendetta" Krasňanský**.
 Skauting je najväčšie celosvetové výchovné hnutie pre deti a mladých s vyše **storočnou tradíciou**.
 
 <iframe width="750" height="420" src="https://www.youtube.com/embed/miHWZcn3ax4?si=i8snCjCWnfAjGPay"
-title="YouTube video"
+title="YouTube video" loading="lazy"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen>
 </iframe>
