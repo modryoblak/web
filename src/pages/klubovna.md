@@ -6,7 +6,7 @@ layout: "../layouts/markdown-layout.astro"
 
 ### Pezinská klubovňa
 
-Tu sa stretávajú skauti a skautky z 1. oddielu Dažďa, 1. roverskej jednotky Koku, 5. oddielu Z Bažinky a 6. oddielu Vietor.
+Tu sa stretávajú skauti a skautky z **1. oddielu Dažďa, 1. roverskej jednotky Koku, 5. oddielu Z Bažinky a 6. oddielu Vietor**.
 
 Cajlanská 1949/88, Pezinok
 
