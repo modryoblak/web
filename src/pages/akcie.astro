@@ -1,7 +1,7 @@
 ---
-import MarkdownLayout from "../../layouts/markdown-layout.astro";
+import MarkdownLayout from "../layouts/markdown-layout.astro";
 
-import EventCard from "../../components/event-card.astro";
+import EventCard from "../components/event-card.astro";
 
 const events = await Astro.glob("../../../public/events/**/*.json").then((events) => {
     const sorted = events.sort((a, b) => (new Date(a.date) as any) - (new Date(b.date) as any));
