@@ -20,6 +20,8 @@ O skauting je veľký záujem, preto náš skautský zbor aktuálne pôsobí v �
 - Viničné
 - SZŠ Felix Bratislava
 
+Lokality klubovní nájdete [v sekcii klubovňa](/klubovna).
+
 ## Zborový vodca
 
 Náš zbor aktuálne vedie **Vendelín "Vendetta" Krasňanský**.
