@@ -16,7 +16,7 @@ const data = await fetch(Astro.url.origin + `/events/${id}.json`).then((response
 <figure class="flex flex-col gap-4 border-slsk-aqua border-[5px] rounded-lg p-4 w-full">
     <h5 class="text-slsk-aqua font-bold text-3xl">{data.title}</h5>
     <span>{data.description}</span>
-    <div class="flex flex-col xl:flex-row justify-between gap-2 font-semibold">
+    <div class="flex flex-col xl:flex-row justify-between gap-2 font-semibold text-slsk-aqua">
         <span>
             <i class="fa-regular fa-calendar-days"></i>
             <span>{new Intl.DateTimeFormat("sk-SK", {}).format(new Date(data.date))}</span>
