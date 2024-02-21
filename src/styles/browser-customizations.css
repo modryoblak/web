@@ -1,0 +1,7 @@
+::-moz-selection {
+    @apply bg-slsk-gold opacity-60;
+}
+
+::selection {
+    @apply bg-slsk-gold opacity-60;
+}
