@@ -5,3 +5,20 @@
 ::selection {
     @apply bg-slsk-gold opacity-60;
 }
+
+body {
+    scrollbar-gutter: stable both-edges;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    @apply bg-slsk-white;
+}
+
+body::-webkit-scrollbar-thumb {
+    @apply bg-slsk-aqua;
+    border-radius: 20px;
+}
