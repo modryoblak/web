@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "./base-layout.astro";
+import NavItems from "../components/nav-items.astro";
 ---
 
 <BaseLayout>
@@ -22,10 +23,7 @@ import BaseLayout from "./base-layout.astro";
 
         <nav class="hidden xl:flex flex-row items-center justify-center">
             <ul class="flex flex-row gap-10 items-center text-md text-slsk-aqua font-semibold hover:[&_a]:underline">
-                <li><a href="/">O nás</a></li>
-                <li><a href="/clen">Pre členov</a></li>
-                <li><a href="/klubovna">Klubovňa</a></li>
-                <li><a href="/kontakt">Kontakt</a></li>
+                <NavItems />
             </ul>
         </nav>
 
@@ -51,10 +49,7 @@ import BaseLayout from "./base-layout.astro";
     <nav id="mobile-nav" class="hidden fixed flex-col gap-6 items-center z-50 bg-slsk-white top-0 left-0 w-52 h-screen m-6 p-6 rounded-md shadow-[0_0_10px_0_rgba(0,0,0,0.3)]">
         <img src="/media/zbor-slsk.png" alt="" class="w-32 mb-10" />
         <ul class="flex flex-col gap-6 items-center text-md text-slsk-aqua font-semibold hover:[&_a]:underline">
-            <li><a href="/">O nás</a></li>
-            <li><a href="/clen">Pre členov</a></li>
-            <li><a href="/klubovna">Klubovňa</a></li>
-            <li><a href="/kontakt">Kontakt</a></li>
+            <NavItems />
         </ul>
         <a href="/pridaj-sa" class="button">
             Pridaj sa k nám!
