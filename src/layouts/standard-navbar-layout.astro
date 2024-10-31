@@ -46,23 +46,29 @@ import NavItems from "../components/nav-items.astro";
         </figure>
     </header>
 
-    <nav id="mobile-nav" class="hidden fixed flex-col gap-6 items-center z-50 bg-slsk-white top-0 left-0 w-52 h-screen m-6 p-6 rounded-md shadow-[0_0_10px_0_rgba(0,0,0,0.3)]">
-        <img src="/media/zbor-slsk.png" alt="" class="w-32 mb-10" />
+    <nav id="mobile-nav" class="hidden fixed flex-col gap-6 items-center z-50 bg-slsk-white top-0 left-0 w-52 h-full p-6 shadow-[0_0_10px_0_rgba(0,0,0,0.3)]">
+        <figure class="flex flex-row items-center">
+            <a aria-label="Modrý oblak" href="/">
+                <img src="/media/zbor-slsk.png" alt="" />
+            </a>
+        </figure>
         <ul class="flex flex-col gap-6 items-center text-md text-slsk-aqua font-semibold hover:[&_a]:underline">
             <NavItems />
         </ul>
-        <a href="/pridaj-sa" class="button">
-            Pridaj sa k nám!
-        </a>
-        <div class="flex flex-row gap-6 items-center justify-center mt-10">
-            <a aria-label="Instagram" href="https://instagram.com/modryoblak" target="blank">
-                <i class="fa-brands fa-instagram scale-[1.6] text-slsk-aqua hover:text-slsk-blue"></i>
-            </a>
-            <a aria-label="Facebook" href="https://facebook.com/ModryOblak" target="_blank">
-                <i class="fa-brands fa-facebook-f scale-[1.3] text-slsk-aqua hover:text-slsk-blue"></i>
-            </a>
-            <a aria-label="Email" href="mailto:rada@modryoblak.sk" target="_blank">
-                <i class="fa-regular fa-envelope scale-[1.8] text-slsk-aqua hover:text-slsk-blue"></i>
+        <div class="flex flex-col gap-6 mt-auto">
+            <div class="flex flex-row gap-6 items-center justify-center mt-10">
+                <a aria-label="Instagram" href="https://instagram.com/modryoblak" target="blank">
+                    <i class="fa-brands fa-instagram scale-[1.6] text-slsk-aqua hover:text-slsk-blue"></i>
+                </a>
+                <a aria-label="Facebook" href="https://facebook.com/ModryOblak" target="_blank">
+                    <i class="fa-brands fa-facebook-f scale-[1.3] text-slsk-aqua hover:text-slsk-blue"></i>
+                </a>
+                <a aria-label="Email" href="mailto:rada@modryoblak.sk" target="_blank">
+                    <i class="fa-regular fa-envelope scale-[1.8] text-slsk-aqua hover:text-slsk-blue"></i>
+                </a>
+            </div>
+            <a href="/pridaj-sa" class="button">
+                Pridaj sa k nám!
             </a>
         </div>
     </nav>
