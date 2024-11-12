@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "./base-layout.astro";
 import NavItems from "../components/nav-items.astro";
+
+const prihlaskaText = "Prihláška člena"
 ---
 
 <BaseLayout>
@@ -35,7 +37,7 @@ import NavItems from "../components/nav-items.astro";
                 <i class="fa-brands fa-facebook-f scale-[1.3] text-slsk-aqua hover:text-slsk-blue"></i>
             </a>
             <a href="/pridaj-sa" class="hidden sm:block button">
-                Pridaj sa k nám!
+                {prihlaskaText}
             </a>
             <a aria-label="Email" href="mailto:rada@modryoblak.sk" target="_blank">
                 <i class="fa-regular fa-envelope scale-[1.8] text-slsk-aqua hover:text-slsk-blue"></i>
@@ -68,7 +70,7 @@ import NavItems from "../components/nav-items.astro";
                 </a>
             </div>
             <a href="/pridaj-sa" class="button">
-                Pridaj sa k nám!
+                {prihlaskaText}
             </a>
         </div>
     </nav>
