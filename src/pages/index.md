@@ -87,11 +87,15 @@ Každá veková kategória má program prispôsobený svojmu veku a záujmom, ab
 
 V skupine rovesníkov si skauti taktiež budujú pevné a dlhoročné priateľstvá.
 
+<div class="flex flex-col gap-12 items-center text-center">
+
 # Chceš sa k nám pridať?
 
 Či už sa chceš pridať ako člen alebo dobrovoľník, radi ťa privítame v našej skautskej komunite.
 
 
-<a href="/pridaj-sa" class="button self-start">
+<a href="/pridaj-sa" class="button">
 Pridaj sa k nám!
 </a>
+
+</div>
