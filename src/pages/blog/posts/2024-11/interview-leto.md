@@ -1,7 +1,8 @@
 ---
-layout: "../../layouts/markdown-layout.astro"
+layout: "../../../../layouts/markdown-layout.astro"
 title: "Interview s Leto"
 author: "Mária Galandová (Kokoska)"
+date: "2024-04-02"
 ---
 
 # Interview s Leto

@@ -1,0 +1,25 @@
+---
+import MarkdownLayout from "../../layouts/markdown-layout.astro";
+
+let posts = await Astro.glob("./posts/*/*.md");
+
+posts = posts.filter((post) => !post.frontmatter.draft);
+posts.sort(
+    (a, b) =>
+        new Date(b.frontmatter.pubDate).valueOf() -
+        new Date(a.frontmatter.pubDate).valueOf()
+);
+---
+
+<MarkdownLayout>
+    <h1>Blog</h1>
+    <ul>
+        {
+            posts.map((post) => (
+            <li>
+                <a href={post.url}>{post.frontmatter.title}</a>
+            </li>
+            ))
+        }
+    </ul>
+</MarkdownLayout>
