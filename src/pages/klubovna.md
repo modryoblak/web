@@ -12,7 +12,7 @@ Cajlanská 1949/88, Pezinok
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d409.0513337666483!2d17.2697284697463!3d48.299236855599695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c90cc9f05bb81%3A0xa2f7092d233e44e4!2sCajlansk%C3%A1%201949%2F88%2C%20902%2001%20Pezinok!5e0!3m2!1sen!2ssk!4v1708546648031!5m2!1sen!2ssk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-### 1. oddiel vĺčat a včielok Felix
+### 1. oddiel Vychádzajúceho slnka a 4. oddiel Mesačného svitu
 
 Škola Felix, Krásnohorská 14, Bratislava - Petržalka
 
