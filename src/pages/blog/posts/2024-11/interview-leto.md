@@ -1,16 +1,15 @@
 ---
-layout: "../../../../layouts/markdown-layout.astro"
+layout: "../../../../layouts/blog-layout.astro"
 title: "Interview s Leto"
 author: "Mária Galandová (Kokoska)"
 date: "2024-04-02"
+image: {
+    src: "/media/interview-leto/interview-cover.png",
+    alt: "Leto",
+}
 ---
 
-# Interview s Leto
-#### 2. apríl 2024 -- Mária Galandová (Kokoska)
-
 Ahojte, som Kokoska, zástupkyňa oddielového vodcu. Chcela by som Vás zoznámiť s Leto, naším „oddielovým slniečkom“. Je radkyňou družiny Húseničky. Mnohí ju určite poznáte, ale ak sa túžite dozvedieť viac pikošiek, neváhajte preletieť očami toto krátke interview :)
-
-![Leto](/media/interview-leto/interview-cover.png)
 
 **Leto, aký máš vzťah s letom? Si svojím najobľúbenejším ročným obdobím?**
 

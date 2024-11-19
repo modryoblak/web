@@ -1,0 +1,20 @@
+---
+import StandardNavbarLayout from "./standard-navbar-layout.astro";
+
+import "../styles/markdown.css";
+
+const { frontmatter } = Astro.props;
+---
+
+<StandardNavbarLayout>
+    <section class="md flex flex-col gap-12 items-center text-justify">
+        { frontmatter.image?.src && <img src={frontmatter.image.src} alt={frontmatter.image.alt} class="w-full" /> }
+        <h1>{frontmatter.title}</h1>
+        <h4>
+            <span aria-label="Date">{new Date(frontmatter.date).toLocaleDateString("sk")}</span>
+            <span aria-hidden> — </span>
+            <span aria-label="Author">{frontmatter.author}</span>
+        </h4>
+        <slot />
+    </section>
+</StandardNavbarLayout>
