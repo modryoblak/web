@@ -1,12 +1,16 @@
 ---
 layout: "../../../../layouts/blog-layout.astro"
 title: "Interview s Leto"
-author: "Mária Galandová (Kokoska)"
 date: "2024-04-02"
+author: "Mária Galandová (Kokoska)"
 image: {
     src: "/media/interview-leto/interview-cover.png",
     alt: "Leto",
 }
+foot: [
+    "4. oddiel Mesačného svitu",
+    "Spracoval: Filip Antala (Ítéčkár)"
+]
 ---
 
 Ahojte, som Kokoska, zástupkyňa oddielového vodcu. Chcela by som Vás zoznámiť s Leto, naším „oddielovým slniečkom“. Je radkyňou družiny Húseničky. Mnohí ju určite poznáte, ale ak sa túžite dozvedieť viac pikošiek, neváhajte preletieť očami toto krátke interview :)
@@ -54,5 +58,3 @@ A zároveň nás potom zobudili – to je tá horšia časť toho zážitku – 
 
 Moje najobľúbenejšie skautské hry sú Žmurkaná a samozrejme, moja úplne najobľúbenejšia hra, Kvetinka, ale to je taká hra pre starších...
 
---<br/>*4. oddiel Mesačného svitu*<br/>
-*Spracoval: Filip Antala (Ítéčkár)*
