@@ -4,7 +4,7 @@ layout: "../layouts/markdown-layout.astro"
 
 ### O nás
 
-# 61. zbor Modrý oblak
+# 61. zbor Modrý oblak Pezinok
 
 Skauting má v Pezinku dlhoročnú tradíciu. Bez prerušenia činnosti tu fungujeme už viac ako
 **30 rokov**. Počiatky skautingu v Pezinku však siahajú ešte o čosi hlbšie do histórie.
