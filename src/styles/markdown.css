@@ -30,7 +30,7 @@
     @apply font-semibold text-slsk-aqua hover:underline;
 }
 
-.md ul {
+.md ul:not(:is(.list-none)) {
     @apply w-full pl-8 list-disc;
 }
 

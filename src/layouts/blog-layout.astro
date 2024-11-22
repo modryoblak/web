@@ -1,0 +1,31 @@
+---
+import StandardNavbarLayout from "./standard-navbar-layout.astro";
+
+import "../styles/markdown.css";
+
+const { frontmatter } = Astro.props;
+
+(frontmatter.foot || []).forEach((foot: string) => console.log(foot));
+---
+
+<StandardNavbarLayout>
+    <section class="md flex flex-col gap-12 items-center text-left">
+        { frontmatter.image?.src && <img src={frontmatter.image.src} alt={frontmatter.image.alt} class="w-full" /> }
+        <h1>{frontmatter.title}</h1>
+        <h4>
+            <span aria-label="Date">{new Date(frontmatter.date).toLocaleDateString("sk")}</span>
+            <span aria-hidden> — </span>
+            <span aria-label="Author">{frontmatter.author}</span>
+        </h4>
+        <slot />
+        { frontmatter.foot && <section class="foot italic text-left w-full pt-6">
+            { (frontmatter.foot || []).map((foot: string) => <p>{foot}</p>) }
+        </section> }
+    </section>
+</StandardNavbarLayout>
+
+<style>
+    .foot {
+        border-top: 1px solid rgba(0,0,0,0.3);
+    }
+</style>
