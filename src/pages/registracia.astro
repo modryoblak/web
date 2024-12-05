@@ -1,0 +1,187 @@
+---
+import MarkdownLayout from "../layouts/markdown-layout.astro";
+const pricing = [
+  {
+    name: "a) základná",
+    foot: "",
+    price1: [70, 90],
+    price2: [75, 95],
+    price3: ["-"],
+  },
+  {
+    name: "b) druhé dieťa",
+    foot: "",
+    price1: [50, 70],
+    price2: [55, 75],
+    price3: ["-"],
+  },
+  {
+    name: "c) tretí a ďalší člen rodiny pod 18 rokov",
+    foot: "",
+    price1: [1],
+    price2: [1],
+    price3: [1],
+  },
+  {
+    name: "d) ZŤP, ústavná starostlivosť, finančne náročná situácia",
+    foot: "",
+    price1: [1],
+    price2: [1],
+    price3: [1],
+  },
+  {
+    name: "e) dobrovoľníci",
+    foot: "radcovia, členovia oddielovej rady, iní dobrovoľníci...",
+    price1: [45, 55],
+    price2: [50, 60],
+    price3: ["-"],
+  },
+];
+---
+
+<MarkdownLayout>
+  <h1>Registrácia do zboru</h1>
+  <article class="text-left">
+    <p>
+      Do nášho zboru a Slovenského skautingu sa registruje na kalendárny rok.
+    </p>
+    <h2 class="mt-12">Ako sa registrovať</h2>
+    <p>
+      Pokiaľ ste ešte neboli registrovaní v našom zbore a máte záujem sa pridať,
+      kontaktujte nás najprv emailovo na <a href="mailto:rada@modryoblak.sk"
+        >rada@modryoblak.sk</a
+      >, príp. telefonicky na <a href="tel:+421 917 379 029">+421 917 379 029</a
+      > a dohodneme si ďalší postup.
+    </p>
+    <br />
+    <p>Ak si chcete obnoviť registráciu na ďalší kalendárny rok:</p>
+    <ul>
+      <li>
+        Krok 1: vyplňte, prosím,
+        <a href="https://forms.gle/P7XPjA1RmvhB6b4U9">tento dotazník</a>.
+      </li>
+      <li>
+        Krok 2: uhraďte členský poplatok s nasledovnými údajmi:
+        <p><b>IBAN: </b>SK20 0900 0000 0001 8120 6410</p>
+        <p><b>BIC/SWIFT: </b>GIBASKBX</p>
+        <p>
+          <b>Meno príjemcu: </b>Slovenský skauting, 61. zbor Modrý oblak Pezinok
+        </p>
+        <p><b>Variabilný symbol: </b>612025</p>
+        <p>
+          <b>Poznámka pre príjemcu: </b>registracia - meno člena/ov, ktorých
+          registrujete
+        </p>
+      </li>
+    </ul>
+    <br />
+    <p class="text-slsk-orange selection:bg-slsk-dark-blue">
+      Prosíme, aby ste brali do úvahy, že ľudia, ktorí platby priraďujú,
+      nepoznajú všetkých členov zboru - ak neuvediete správne údaje vyššie,
+      veľmi im skomplikujete prácu. Aj priraďovanie platieb robíme vo svojom
+      voľnom čase ako dobrovoľníci a pri viac ako 200 členoch je to makačka.
+      Ďakujeme!
+    </p>
+    <h2 class="mt-12">Výška poplatku</h2>
+    <p>
+      Od tohto roku fungujeme s poplatkami na báze rozsahu - zaplatiť môžete
+      akúkoľvek sumu medzi minimálnym a odporúčaným poplatkom.
+    </p>
+    <br />
+    <table class="border-collapse">
+      <thead class="border-b-2 border-slsk-orange">
+        <th>Typ registrácie</th>
+        <th>Suma (do 17. 1.)</th>
+        <th>Suma (18. 1. - 30. 9.)</th>
+        <th>Suma (od 30. 9.)</th>
+      </thead>
+      <tbody>
+        {
+          pricing.map((item) => (
+            <tr>
+              <td class="py-3">
+                {item.name}
+                {item.foot && <p class="text-xs text-slsk-aqua">{item.foot}</p>}
+              </td>
+              <td>
+                {item.price1[0]}
+                {item.price1.length > 1 && " - "}
+                {item.price1[1]} €
+              </td>
+              <td>
+                {item.price2[0]}
+                {item.price2.length > 1 && " - "}
+                {item.price2[1]} €
+              </td>
+              <td>
+                {item.price3[0]}
+                {item.price3.length > 1 && " - "}
+                {item.price3[1]} €
+              </td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+    <h2 class="mt-12" id="kalkulacka">Kalkulačka poplatkov</h2>
+    <p>
+      Nie ste si istí aký poplatok máte platiť? Registrujete viacerých rodinných
+      príslušníkov a ste z rôznych typov zliav popletení? Vyrobili sme pre vás
+      ako pomôcku kalkulačku, ktorá všetko preráta za vás! Nájdete ju na
+      <a
+        rel="noopener noreferrer"
+        target="_blank"
+        href="https://kalkulacka.modryoblak.sk"
+      >
+        kalkulacka.modryoblak.sk
+      </a>.
+    </p>
+    <p class="text-sm text-slsk-orange selection:bg-slsk-dark-blue">
+      Pozor, zľavu za rodinných príslušníkov ráta kalkulačka, len ak ich
+      nahodíte všetkých naraz. Ak si v rodine delíte, kto platí ktorú časť
+      poplatku, nahoďte si najprv všetkých rodinných príslušníkov naraz a až
+      potom si rozdelte platby.
+    </p>
+    <h2 class="mt-12" id="poplatok-v-praxi">Členský poplatok v praxi</h2>
+    <p>
+      Z členského poplatku platíme 20€ našej strešnej organizácii <a
+        href="https://skauting.sk">Slovenský skauting</a
+      >, ktorá pre nás robí administratívnu podporu, organizovanie vzdelávaní
+      pre dobrovoľníkov, tvorbu programových prvkov a metodík či publikáciu
+      skautských časopisov. Zvyšná časť poplatku putuje priamo k nám na
+      zabezpečenie chodu nášho zboru.
+    </p>
+    <!-- <p>
+      Zhrnutie základných vecí, ktoré našim členom prináša členský poplatok,
+      nájdete nižšie:
+    </p> -->
+    <br />
+    <p>
+      Vďaka tomuto poplatku môžeme zabezpečiť, že všetci členovia, vrátane
+      dobrovoľníkov, budú mať prístup k plnej škále skautských aktivít,
+      materiálom, ktoré platíme z tohoto poplatku, priestorom na stretávanie a
+      výhodám spojeným s členstvom.
+    </p>
+    <h2 class="mt-12" id="poplatok-v-praxi">Znížený poplatok</h2>
+    <p>
+      Pre ľudí v hmotnej núdzi, držiteľov preukazu ZŤP, mladých ľudí v ústavnej
+      starostlivosti, alebo osoby v špecifickej nepriaznivej sociálnej situácii
+      je registračný poplatok už pri prvom dieťati 1 € (alebo vyšší podľa
+      vlastného zváženia svojej situácie).
+    </p>
+    <br />
+    <p>
+      K registrácii je potrebné priložiť potvrdenie od Sociálnej poisťovne,
+      úradu práce o hmotnej núdzi, resp. iný relevantný doklad (čestné
+      prehlásenie). Pokiaľ máte záujem požiadať o zníženie členského poplatku,
+      kontaktujte oddielového vodcu príp. napíšte na <a
+        href="mailto:rada@modryoblak.sk">rada@modryoblak.sk</a
+      >.
+    </p>
+    <br />
+    <p>
+      V prípade potreby je možné dohodnúť sa tiež na splátkovom kalendári alebo
+      inom riešení. Určite nás neváhajte kontaktovať.
+    </p>
+  </article>
+</MarkdownLayout>
