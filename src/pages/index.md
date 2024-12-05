@@ -1,5 +1,5 @@
 ---
-layout: "../layouts/markdown-layout.astro"
+layout: "../layouts/core-layout.astro"
 ---
 
 ### O nás
