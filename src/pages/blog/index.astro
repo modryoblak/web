@@ -1,5 +1,5 @@
 ---
-import MarkdownLayout from "../../layouts/markdown-layout.astro";
+import CoreLayout from "../../layouts/core-layout.astro";
 
 let posts = await Astro.glob("./posts/*/*.md");
 
@@ -7,7 +7,7 @@ posts = posts.filter((post) => !post.frontmatter.draft);
 posts.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf());
 ---
 
-<MarkdownLayout>
+<CoreLayout>
     <h1>Blog</h1>
     <ul class="flex flex-col list-none">
         {
@@ -30,7 +30,7 @@ posts.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontma
             ))
         }
     </ul>
-</MarkdownLayout>
+</CoreLayout>
 
 <style>
     li:not(:last-child) {
