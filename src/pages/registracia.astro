@@ -42,25 +42,25 @@ const pricing = [
 
 <CoreLayout>
   <h1>Registrácia do zboru</h1>
-  <article class="text-left">
+  <article class="flex flex-col gap-6 text-left">
     <p>
       Do nášho zboru a Slovenského skautingu sa registruje na kalendárny rok.
     </p>
-    <h2 class="mt-12">Ako sa registrovať</h2>
+    <h2>Ako sa registrovať</h2>
     <p>
       Pokiaľ ste ešte neboli registrovaní v našom zbore a máte záujem sa pridať,
       kontaktujte nás najprv emailovo na <a href="mailto:rada@modryoblak.sk"
-        >rada@modryoblak.sk</a
-      >, príp. telefonicky na <a href="tel:+421 917 379 029">+421 917 379 029</a
-      > a dohodneme si ďalší postup.
+          target="_blank">rada@modryoblak.sk</a>
+      , príp. telefonicky na <a href="tel:+421 917 379 029">
+      +421 917 379 029</a> a dohodneme si ďalší postup.
     </p>
     <br />
     <p>Ak si chcete obnoviť registráciu na ďalší kalendárny rok:</p>
     <ul>
       <li>
         Krok 1: vyplňte, prosím,
-        <a href="https://forms.gle/P7XPjA1RmvhB6b4U9">tento dotazník</a>.
-      </li>
+        <a href="https://forms.gle/P7XPjA1RmvhB6b4U9" target="_blank">
+        tento dotazník</a>.</li>
       <li>
         Krok 2: uhraďte členský poplatok s nasledovnými údajmi:
         <p><b>IBAN: </b>SK20 0900 0000 0001 8120 6410</p>
@@ -92,19 +92,19 @@ const pricing = [
     <table class="border-collapse">
       <thead class="border-b-2 border-slsk-orange">
         <th>Typ registrácie</th>
-        <th>Suma (do 17. 1.)</th>
-        <th>Suma (18. 1. - 30. 9.)</th>
-        <th>Suma (od 30. 9.)</th>
+        <th>Suma (do 17.1.)</th>
+        <th>Suma (18.1. - 30.9.)</th>
+        <th>Suma (od 30.9.)</th>
       </thead>
       <tbody>
         {
           pricing.map((item) => (
             <tr>
-              <td class="py-3">
+              <td class="pr-3 py-3">
                 {item.name}
                 {item.foot && <p class="text-xs text-slsk-aqua">{item.foot}</p>}
               </td>
-              <td>
+              <td class="p-2">
                 {item.price1[0]}
                 {item.price1.length > 1 && " - "}
                 {item.price1[1]} €
@@ -146,7 +146,7 @@ const pricing = [
     <h2 class="mt-12" id="poplatok-v-praxi">Členský poplatok v praxi</h2>
     <p>
       Z členského poplatku platíme 20€ našej strešnej organizácii <a
-        href="https://skauting.sk">Slovenský skauting</a
+        href="https://skauting.sk" target="_blank">Slovenský skauting</a
       >, ktorá pre nás robí administratívnu podporu, organizovanie vzdelávaní
       pre dobrovoľníkov, tvorbu programových prvkov a metodík či publikáciu
       skautských časopisov. Zvyšná časť poplatku putuje priamo k nám na
@@ -176,7 +176,7 @@ const pricing = [
       úradu práce o hmotnej núdzi, resp. iný relevantný doklad (čestné
       prehlásenie). Pokiaľ máte záujem požiadať o zníženie členského poplatku,
       kontaktujte oddielového vodcu príp. napíšte na <a
-        href="mailto:rada@modryoblak.sk">rada@modryoblak.sk</a
+        href="mailto:rada@modryoblak.sk" target="_blank">rada@modryoblak.sk</a
       >.
     </p>
     <br />
