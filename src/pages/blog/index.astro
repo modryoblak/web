@@ -7,7 +7,7 @@ posts = posts.filter((post) => !post.frontmatter.draft);
 posts.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf());
 ---
 
-<CoreLayout>
+<CoreLayout title="Blog - Modrý oblak">
     <h1>Blog</h1>
     <ul class="flex flex-col list-none">
         {

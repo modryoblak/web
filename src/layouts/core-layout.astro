@@ -6,13 +6,13 @@ import { SEO } from "astro-seo";
 import Navbar from "../components/nav/navbar.astro";
 
 const {
-    title = "Modrý oblak",
-    description = "Zborová webstránka 61. zboru Modrý oblak Pezinok. Informácie pre rodičov, členov a verejnosť.",
-    image = "/media/zbor-slsk.png",
+    frontmatter = null,
+    title = frontmatter?.title || "Modrý oblak",
+    description = frontmatter?.description || "Zborová webstránka 61. zboru Modrý oblak Pezinok. Informácie pre rodičov, členov a verejnosť.",
+    image = frontmatter?.image?.src ?? "/media/zbor-slsk.png",
     canonical = `https://modryoblak.sk/${Astro.url.pathname}`,
     og_title = title,
     og_type = "website",
-    frontmatter = null
 } = Astro.props
 
 let open_graph = {
