@@ -1,5 +1,6 @@
 ---
 layout: "../layouts/core-layout.astro"
+title: "Klubovňa - Modrý oblak"
 ---
 
 # Klubovňa
