@@ -89,13 +89,17 @@ const pricing = [
     akúkoľvek sumu medzi minimálnym a odporúčaným poplatkom.
     </p>
     <br />
+    <!-- TODO: Apply border-radius to the table -->
     <table class="border-collapse">
-        <thead>
-            <tr class="[&>th]:p-2 [&>th]:border-2 [&>th]:bg-slsk-aqua text-slsk-white">
-                <th>Typ registrácie</th>
-                <th>Suma (do 17.1.)</th>
-                <th>Suma (18.1. - 30.9.)</th>
-                <th>Suma (od 30.9.)</th>
+        <thead class="text-center [&>*>th]:border-2 [&>*>th]:bg-slsk-aqua text-slsk-white">
+            <tr>
+                <th rowspan="2">Typ registrácie</th>
+                <th colspan="3" class="p-2 w-[55%]">Suma (minimálna - odporúčaná)</th>
+            </tr>
+            <tr class="[&>th]:p-2">
+                <th>Do 17.1.</th>
+                <th>18.1. - 30.9.</th>
+                <th>Od 30.9.</th>
             </tr>
         </thead>
         <tbody>
