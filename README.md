@@ -1,16 +1,10 @@
-# Nová zborová webstránka
+# Zborový web ⚜️
+61. zbor Modrý oblak Pezinok
 
-## Výber technológií
-
-Pracujeme s Astro.js pre jeho prístupnosť, jednoduchosť a efektivitu na client-side.
-
-### Kompletný zoznam
-
-Stránka mometálne používa:
+## Výber technológií 💻
 
 - Astro
 - TailwindCSS
-- HTMX
 
 ## Contributions ⭐
 
@@ -18,19 +12,19 @@ Ak chete niečo pridať, vytvorte si PR so zmenami. Nepovoľujeme pushe do main 
 
 ### Commits
 
-Commits v angličtine a v neurčitom čase. 
+Commits v angličtine a v neurčitom čase, tagy vo forme `[Tag]` povolené.
 
 Príklady:
 ```
 Add navbar
 ```
 ```
-Remove unnecessary dependencies
+[Npm] Remove unnecessary dependencies
 ```
 
-# Dodatočné srandy 🍝
+## Dodatočné srandy 🍝
 
-## Paleta
+### Paleta 🎨
 
 Paleta vizuálnej identity SLSK a zborových farieb vo forme `.json` dokumentu:
 
