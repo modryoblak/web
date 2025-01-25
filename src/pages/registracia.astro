@@ -42,7 +42,6 @@ const pricing = [
 
 <CoreLayout title="Registrácia - Modrý oblak">
 <h1>Registrácia do zboru</h1>
-<article class="flex flex-col gap-6 text-left">
     <p>
     Do nášho zboru a Slovenského skautingu sa registruje na kalendárny rok.
     </p>
@@ -54,7 +53,6 @@ const pricing = [
         príp. telefonicky na <a href="tel:+421 917 379 029">
         +421 917 379 029</a> a dohodneme si ďalší postup.
     </p>
-    <br />
     <p>Ak si chcete obnoviť registráciu na ďalší kalendárny rok:</p>
     <ul>
         <li>
@@ -75,7 +73,6 @@ const pricing = [
             </p>
         </li>
     </ul>
-    <br />
     <p class="text-sm text-slsk-orange selection:bg-slsk-dark-blue">
     Prosíme, aby ste brali do úvahy, že ľudia, ktorí platby priraďujú,
     nepoznajú všetkých členov zboru - ak neuvediete správne údaje vyššie,
@@ -83,12 +80,11 @@ const pricing = [
     voľnom čase ako dobrovoľníci a pri viac ako 200 členoch je to makačka.
     Ďakujeme!
     </p>
-    <h2 class="mt-12">Výška poplatku</h2>
+    <h2>Výška poplatku</h2>
     <p>
     Od tohto roku fungujeme s poplatkami na báze rozsahu - zaplatiť môžete
     akúkoľvek sumu medzi minimálnym a odporúčaným poplatkom.
     </p>
-    <br />
     <!-- TODO: Apply border-radius to the table -->
     <table class="border-collapse">
         <thead class="text-center [&>*>th]:border-2 [&>*>th]:bg-slsk-aqua text-slsk-white">
@@ -130,7 +126,7 @@ const pricing = [
             }
         </tbody>
     </table>
-    <h2 class="mt-12" id="kalkulacka">Kalkulačka poplatkov</h2>
+    <h2 id="kalkulacka">Kalkulačka poplatkov</h2>
     <p>
     Nie ste si istí aký poplatok máte platiť? Registrujete viacerých rodinných
     príslušníkov a ste z rôznych typov zliav popletení? Vyrobili sme pre vás
@@ -148,7 +144,7 @@ const pricing = [
     poplatku, nahoďte si najprv všetkých rodinných príslušníkov naraz a až
     potom si rozdelte platby.
     </p>
-    <h2 class="mt-12" id="poplatok-v-praxi">Členský poplatok v praxi</h2>
+    <h2 id="poplatok-v-praxi">Členský poplatok v praxi</h2>
     <p>
     Z členského poplatku platíme 20€ našej strešnej organizácii <a
         href="https://skauting.sk" target="_blank">Slovenský skauting</a
@@ -157,37 +153,37 @@ const pricing = [
     skautských časopisov. Zvyšná časť poplatku putuje priamo k nám na
     zabezpečenie chodu nášho zboru.
     </p>
-    <!-- <p>
-        Zhrnutie základných vecí, ktoré našim členom prináša členský poplatok,
-        nájdete nižšie:
-        </p> -->
-        <br />
-        <p>
-        Vďaka tomuto poplatku môžeme zabezpečiť, že všetci členovia, vrátane
-        dobrovoľníkov, budú mať prístup k plnej škále skautských aktivít,
-        materiálom, ktoré platíme z tohoto poplatku, priestorom na stretávanie a
-        výhodám spojeným s členstvom.
-        </p>
-        <h2 class="mt-12" id="poplatok-v-praxi">Znížený poplatok</h2>
-        <p>
-        Pre ľudí v hmotnej núdzi, držiteľov preukazu ZŤP, mladých ľudí v ústavnej
-        starostlivosti, alebo osoby v špecifickej nepriaznivej sociálnej situácii
-        je registračný poplatok už pri prvom dieťati 1 € (alebo vyšší podľa
-        vlastného zváženia svojej situácie).
-        </p>
-        <br />
-        <p>
-        K registrácii je potrebné priložiť potvrdenie od Sociálnej poisťovne,
-        úradu práce o hmotnej núdzi, resp. iný relevantný doklad (čestné
-        prehlásenie). Pokiaľ máte záujem požiadať o zníženie členského poplatku,
-        kontaktujte oddielového vodcu príp. napíšte na <a
-            href="mailto:rada@modryoblak.sk" target="_blank">rada@modryoblak.sk</a
-        >.
-        </p>
-        <br />
-        <p>
-        V prípade potreby je možné dohodnúť sa tiež na splátkovom kalendári alebo
-        inom riešení. Určite nás neváhajte kontaktovať.
-        </p>
-</article>
+    <p>
+    Vďaka tomuto poplatku môžeme zabezpečiť, že všetci členovia, vrátane
+    dobrovoľníkov, budú mať prístup k plnej škále skautských aktivít,
+    materiálom, ktoré platíme z tohoto poplatku, priestorom na stretávanie a
+    výhodám spojeným s členstvom.
+    </p>
+    <h2 id="poplatok-v-praxi">Znížený poplatok</h2>
+    <p>
+    Pre ľudí v hmotnej núdzi, držiteľov preukazu ZŤP, mladých ľudí v ústavnej
+    starostlivosti, alebo osoby v špecifickej nepriaznivej sociálnej situácii
+    je registračný poplatok už pri prvom dieťati 1 € (alebo vyšší podľa
+    vlastného zváženia svojej situácie).
+    </p>
+    <p>
+    K registrácii je potrebné priložiť potvrdenie od Sociálnej poisťovne,
+    úradu práce o hmotnej núdzi, resp. iný relevantný doklad (čestné
+    prehlásenie). Pokiaľ máte záujem požiadať o zníženie členského poplatku,
+    kontaktujte oddielového vodcu príp. napíšte na <a
+        href="mailto:rada@modryoblak.sk" target="_blank">rada@modryoblak.sk</a
+    >.
+    </p>
+    <p>
+    V prípade potreby je možné dohodnúť sa tiež na splátkovom kalendári alebo
+    inom riešení. Určite nás neváhajte kontaktovať.
+    </p>
+    <h2>Ukončenie členstva</h2>
+    <p>
+    Ak chcete ukončiť svoje členstvo v zbore a neregistrovať sa do ďalšieho
+    roka, prosím vyplňte
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfX0OKjmCX1HhWCeYF1l0XfwC-ycEJn5M1QI46qO8AxXD8g4w/viewform">
+    tento dotazník</a>. Po jeho vyplnení Vás ohľadom registrácií
+    nebudeme ďalej kontaktovať.
+    </p>
 </CoreLayout>
