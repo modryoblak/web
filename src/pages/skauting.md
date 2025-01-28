@@ -1,4 +1,5 @@
 ---
+title: "Skauting - Modrý oblak"
 layout: "../layouts/core-layout.astro"
 ---
 
