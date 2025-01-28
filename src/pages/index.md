@@ -35,59 +35,73 @@ Náš zbor aktuálne vedie **Vendelín "Vendetta" Krasňanský**.
 
 V našom zbore aktuálne pôsobí **8 oddielov**:
 
-<h4 class="flex flex-row gap-2 items-center">
-    <div aria-hidden class="w-8 rounded-full border-2 border-slsk-yellow overflow-hidden">
-    <img src="/media/oddiely/dazd.png" alt="" />
+<div class="grid grid-cols-1 p-8 sm:grid-cols-2 md:grid-cols-4 md:p-0 gap-8 text-center text-xl">
+
+<a href="/oddiel/dazd" class="flex flex-col items-center gap-1">
+    <div aria-hidden class="m-2 rounded-full border-[6px] border-[#fdff43] overflow-hidden">
+        <img src="/media/oddiely/dazd.png" alt="" />
     </div>
-    1. oddiel Dažďa
-</h4>
+    <p>1. oddiel Dažďa</p>
+    <p class="text-sm text-slsk-black font-normal">7-11 rokov, chlapci</p>
+</a>
 
+<div class="flex flex-col items-center gap-1">
+    <div aria-hidden class="m-2 rounded-full border-[6px] border-slsk-gold overflow-hidden">
+        <img src="/media/oddiely/slnko.png" alt="" />
+    </div>
+    <p>1. oddiel Vycházajúceho slnka</p>
+    <p class="text-sm text-slsk-black font-normal">7-11 rokov</p>
+</div>
 
-Prvý oddiel Dažďa je určený pre **chlapcov vo veku vĺčat**. (7-11 rokov)
-Na pravidelných družinovkách si trénujeme zručnosti na **prežitie v
-prírode** a učíme sa **základom skautingu**. Starší členovia sa neskôr
-môžu rozvíjať aj v sociálnych zručnostiach a postupne preberať niektoré
-zodpovednosti, čo ďalej pomôže rozvinúť ich **osobnosť a charakter**.
+<div class="flex flex-col items-center gap-1">
+    <div aria-hidden class="m-2 rounded-full border-[6px] border-slsk-red overflow-hidden">
+        <img src="/media/oddiely/koku.jpeg" alt="" />
+    </div>
+    <p>1. roverská jednotka KoKu</p>
+    <p class="text-sm text-slsk-black font-normal">Dospelí</p>
+</div>
 
-Pri výchovno-vzdelavácom procese využívame prevažne tzv. "**učenie hrou**",
-aby proces učenia bol pre deti v tomto veku zaujímavý, a aby si
-obsah družinoviek čo najviac užili a v dobrom zapamätali.
+<div class="flex flex-col items-center gap-1">
+    <div aria-hidden class="m-2 rounded-full border-[6px] border-slsk-green overflow-hidden">
+        <img src="/media/oddiely/labute.jpeg" alt="" />
+    </div>
+    <p>2. oddiel Labute</p>
+    <p class="text-sm text-slsk-black font-normal">Viničné</p>
+</div>
 
-Náš oddiel momentálne vedie **Matej "Thor" Mikulička**. Ďalej v
-našom tíme pôsobia:
+<div class="flex flex-col items-center gap-1">
+    <div aria-hidden class="m-2 rounded-full border-[6px] border-slsk-yellow overflow-hidden">
+        <img src="/media/oddiely/tiene.jpeg" alt="" class="aspect-square" />
+    </div>
+    <p>3. oddiel Tieňov</p>
+    <p class="text-sm text-slsk-black font-normal">Grinava</p>
+</div>
 
-- Zástupca vedúceho oddielu: **Jakub "Slížo" Guštafik**
-- Zástupca vedúceho oddielu: **Peter "Ypsilon" Arvay**
-- Oddielový výletník: **Vojtech "Ultrazvuk" Winter**
-- Oddielový fotograf: **Tomáš "Hluk" Mifkovič**
+<div class="flex flex-col items-center gap-1">
+    <div aria-hidden class="m-2 rounded-full border-[6px] border-slsk-green overflow-hidden">
+        <img src="/media/oddiely/mesiac.png" alt="" />
+    </div>
+    <p>4. oddiel Mesačného svitu</p>
+    <p class="text-sm text-slsk-black font-normal">11-15 rokov</p>
+</div>
 
-V našom oddiele momentálne fungujú **3 družiny**:
+<div class="flex flex-col items-center gap-1">
+    <div aria-hidden class="m-2 rounded-full border-[6px] border-slsk-yellow overflow-hidden">
+        <img src="/media/oddiely/z-bazinky.png" alt="" />
+    </div>
+    <p>5. oddiel Z Bažinky</p>
+    <p class="text-sm text-slsk-black font-normal">7-11 rokov, dievčatá</p>
+</div>
 
-- Siví vlci
-    - Radca: **Michal "M&M" Mikulička**
-- Medvede
-    - Radca: **Martin "Sardinka" Rajnoch**
-    - Podradca: **Lukáš "Napríklad" Bouška**
-- Sokoly
-    - Radca: **Tadeáš "Kyselina" Pícha**
-    - Podradca: **Jozef "Granadír" Šmiga**
+<div class="flex flex-col items-center gap-1">
+    <div aria-hidden class="m-2 rounded-full border-[6px] border-slsk-green overflow-hidden">
+        <img src="/media/oddiely/vietor.png" alt="" />
+    </div>
+    <p>6. oddiel Vietor</p>
+    <p class="text-sm text-slsk-black font-normal">11-15 rokov</p>
+</div>
 
-Pre viac informácií náš môžete kontaktovať na e-mailovej adrese
-[dazd@modryoblak.sk](mailto:dazd@modryoblak.sk).
-
-#### 1. oddiel Vychádzajúceho slnka (pôvodne Felix)
-
-#### 1. roverská jednotka KoKu
-
-#### 2. oddiel Labute Viničné
-
-#### 3. oddiel Tieňov Grinava
-
-#### 4. oddiel Mesačného svitu (pôvodne Felix)
-
-#### 5. oddiel Z Bažinky
-
-#### 6. oddiel skautov a skautiek Vietor
+</div>
 
 ## Skauting na Slovensku a vo svete
 
