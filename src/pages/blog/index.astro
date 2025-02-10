@@ -1,39 +1,49 @@
 ---
+import { getCollection } from "astro:content";
 import CoreLayout from "../../layouts/core-layout.astro";
 
-let posts = await Astro.glob("./posts/*/*.md");
+const posts = await getCollection("posts");
 
-posts = posts.filter((post) => !post.frontmatter.draft);
-posts.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf());
+posts.sort(
+  (a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf()
+);
 ---
 
 <CoreLayout title="Blog - Modrý oblak">
-    <h1>Blog</h1>
-    <ul class="flex flex-col list-none">
-        {
-            posts.map((post) => (
-            <li class="pt-14 pb-12">
-                <a href={post.url}>
-                    <div class="flex flex-col gap-1">
-                        { post.frontmatter.image?.src && <img src={post.frontmatter.image.src} alt={post.frontmatter.image.alt} class="object-cove rounded-md" /> }
-                        <div class="flex flex-col">
-                            <h2>{post.frontmatter.title}</h2>
-                            <h4>
-                                <span aria-label="Date">{new Date(post.frontmatter.date).toLocaleDateString("sk")}</span>
-                                <span aria-hidden> — </span>
-                                <span aria-label="Author">{post.frontmatter.author}</span>
-                            </h4>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            ))
-        }
-    </ul>
+  <h1>Blog</h1>
+  <ul class="flex flex-col list-none">
+    {
+      posts.map((post: any) => (
+        <li class="pt-14 pb-12">
+          <a href={`/blog/posts/${post.slug}`}>
+            <div class="flex flex-col gap-1">
+              {post.data.cover && (
+                <img
+                  src={post.data.cover}
+                  alt={"Cover photo for " + post.data.title}
+                  class="object-cove rounded-md"
+                />
+              )}
+              <div class="flex flex-col">
+                <h2>{post.data.title}</h2>
+                <h4>
+                  <span aria-label="Date">
+                    {new Date(post.data.date).toLocaleDateString("sk")}
+                  </span>
+                  <span aria-hidden> — </span>
+                  <span aria-label="Author">{post.data.author}</span>
+                </h4>
+              </div>
+            </div>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
 </CoreLayout>
 
 <style>
-    li:not(:last-child) {
-        border-bottom: 2px solid rgba(0,0,0,0.3);
-    }
+  li:not(:last-child) {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  }
 </style>

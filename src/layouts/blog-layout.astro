@@ -1,33 +1,42 @@
 ---
+import { Image } from "astro:assets";
 import "../styles/markdown.css";
 import CoreLayout from "./core-layout.astro";
 
-const { frontmatter } = Astro.props;
+const { postData: post, slug } = Astro.props;
+console.log(post);
 ---
 
 <CoreLayout
-    title={`${frontmatter.title} - Modrý oblak`}
-    description={frontmatter.description}
-    image={frontmatter.image?.src}
-    og_title={frontmatter.title}
-    og_type="article"
-    frontmatter={frontmatter}
+  title={`${post.title} - Modrý oblak`}
+  description={post.description}
+  image={post.cover}
+  og_title={post.title}
+  og_type="article"
+  frontmatter={post}
 >
-    { frontmatter.image?.src && <img src={frontmatter.image.src} alt={frontmatter.image.alt} class="w-full" /> }
-    <h1>{frontmatter.title}</h1>
-    <h4>
-        <span aria-label="Date">{new Date(frontmatter.date).toLocaleDateString("sk")}</span>
-        <span aria-hidden> — </span>
-        <span aria-label="Author">{frontmatter.author}</span>
-    </h4>
-    <slot />
-    { frontmatter.foot && <section class="foot italic text-left w-full pt-6">
-        { (frontmatter.foot || []).map((foot: string) => <p>{foot}</p>) }
-    </section> }
+  {post.cover && <img src={post.cover} alt="Blog cover photo" class="w-full" />}
+  <h1>{post.title}</h1>
+  <h4>
+    <span aria-label="Date">{new Date(post.date).toLocaleDateString("sk")}</span
+    >
+    <span aria-hidden> — </span>
+    <span aria-label="Author">{post.author}</span>
+  </h4>
+  <slot />
+  {
+    post.foot && (
+      <section class="foot italic text-left w-full pt-6">
+        {(post.foot || []).map((foot: string) => (
+          <p>{foot}</p>
+        ))}
+      </section>
+    )
+  }
 </CoreLayout>
 
 <style>
-    .foot {
-        border-top: 1px solid rgba(0,0,0,0.3);
-    }
+  .foot {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+  }
 </style>

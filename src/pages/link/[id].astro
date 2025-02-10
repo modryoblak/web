@@ -1,0 +1,17 @@
+---
+export const prerender = false;
+import { getCollection } from "astro:content";
+
+const redirects = await getCollection("redirects");
+console.log(redirects);
+const redirect = redirects.find(
+  (item) => item.data.base === Astro.params.id
+);
+
+if (!redirect) {
+  Astro.response.status = 404;
+  Astro.response.statusText = "Not found";
+} else {
+  Astro.redirect(redirect.data.redirect);
+}
+---
