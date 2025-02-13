@@ -7,7 +7,7 @@ layout: "../layouts/core-layout.astro"
 # 61. zbor Modrý oblak Pezinok
 
 Skauting má v Pezinku dlhoročnú tradíciu. Bez prerušenia činnosti tu fungujeme
-už viac ako **30 rokov**. Počiatky skautingu v Pezinku však siahajú ešte
+už viac ako **35 rokov**. Počiatky skautingu v Pezinku však siahajú ešte
 o čosi hlbšie do histórie.
 
 Náš skautský zbor má viac ako 200 členov a od roku 2020 sme
@@ -35,14 +35,14 @@ Náš zbor aktuálne vedie **Vendelín "Vendetta" Krasňanský**.
 
 V našom zbore aktuálne pôsobí **8 oddielov**:
 
-<div class="grid grid-cols-1 p-8 sm:grid-cols-2 md:grid-cols-4 md:p-0 gap-8 text-center text-xl">
+<div class="grid p-8 grid-cols-2 md:grid-cols-4 md:p-0 gap-8 text-center text-xl">
 
 <a href="/oddiel/dazd" class="flex flex-col items-center gap-1">
     <div aria-hidden class="m-2 rounded-full border-[6px] border-[#fdff43] overflow-hidden">
         <img src="/media/oddiely/dazd.png" alt="" />
     </div>
     <p>1. oddiel Dažďa</p>
-    <p class="text-sm text-slsk-black font-normal">7-11 rokov, chlapci</p>
+    <p class="text-sm text-slsk-black font-normal">7-11 rokov, Chlapci, Cajla</p>
 </a>
 
 <div class="flex flex-col items-center gap-1">
@@ -50,7 +50,7 @@ V našom zbore aktuálne pôsobí **8 oddielov**:
         <img src="/media/oddiely/slnko.png" alt="" />
     </div>
     <p>1. oddiel Vycházajúceho slnka</p>
-    <p class="text-sm text-slsk-black font-normal">7-11 rokov</p>
+    <p class="text-sm text-slsk-black font-normal">7-11 rokov, Bratislava</p>
 </div>
 
 <div class="flex flex-col items-center gap-1">
@@ -82,7 +82,7 @@ V našom zbore aktuálne pôsobí **8 oddielov**:
         <img src="/media/oddiely/mesiac.png" alt="" />
     </div>
     <p>4. oddiel Mesačného svitu</p>
-    <p class="text-sm text-slsk-black font-normal">11-15 rokov</p>
+    <p class="text-sm text-slsk-black font-normal">11-15 rokov, Bratislava</p>
 </div>
 
 <div class="flex flex-col items-center gap-1">
@@ -90,7 +90,7 @@ V našom zbore aktuálne pôsobí **8 oddielov**:
         <img src="/media/oddiely/z-bazinky.png" alt="" />
     </div>
     <p>5. oddiel Z Bažinky</p>
-    <p class="text-sm text-slsk-black font-normal">7-11 rokov, dievčatá</p>
+    <p class="text-sm text-slsk-black font-normal">7-11 rokov, Dievčatá, Cajla</p>
 </div>
 
 <div class="flex flex-col items-center gap-1">
@@ -98,7 +98,7 @@ V našom zbore aktuálne pôsobí **8 oddielov**:
         <img src="/media/oddiely/vietor.png" alt="" />
     </div>
     <p>6. oddiel Vietor</p>
-    <p class="text-sm text-slsk-black font-normal">11-15 rokov</p>
+    <p class="text-sm text-slsk-black font-normal">11-15 rokov, Cajla</p>
 </div>
 
 </div>
