@@ -12,24 +12,28 @@ import NavbarItems from "./navbar-items.astro"
     <nav class="hidden xl:flex flex-row items-center justify-center">
         <ul class="flex flex-row items-center text-md text-slsk-aqua font-semibold hover:[&_a]:underline">
             <NavbarItems />
+            <li>
+                <a aria-label="Instagram" href="https://instagram.com/modryoblak" target="_blank" class="hidden xl:block">
+                    <i class="fa-brands fa-instagram scale-[1.3] text-slsk-aqua px-3 hover:text-slsk-blue"></i>
+                </a>
+            </li>
+            <li>
+                <a aria-label="Facebook" href="https://facebook.com/ModryOblak" target="_blank" class="hidden xl:block">
+                    <i class="fa-brands fa-facebook-f text-slsk-aqua px-3 hover:text-slsk-blue"></i>
+                </a>
+            </li>
         </ul>
     </nav>
 
-    <figure class="flex flex-row gap-6 items-center justify-end">
+    <figure class="flex flex-row gap-3 items-center justify-end">
         <a href="/podporte-nas/2-percenta" class="hidden sm:block button bg-slsk-orange">
             2%
         </a>
-        <a aria-label="Instagram" href="https://instagram.com/modryoblak" target="_blank" class="hidden xl:block">
-            <i class="fa-brands fa-instagram scale-[1.6] text-slsk-aqua hover:text-slsk-blue"></i>
-        </a>
-        <a aria-label="Facebook" href="https://facebook.com/ModryOblak" target="_blank" class="hidden xl:block">
-            <i class="fa-brands fa-facebook-f scale-[1.3] text-slsk-aqua hover:text-slsk-blue"></i>
-        </a>
         <a href="/registracia" class="hidden sm:block button">
-            REG
+            Registrácia
         </a>
         <a aria-label="Email" href="mailto:rada@modryoblak.sk" target="_blank">
-            <i class="fa-regular fa-envelope scale-[1.8] text-slsk-aqua hover:text-slsk-blue"></i>
+            <i class="fa-regular fa-envelope scale-[1.8] px-2 text-slsk-aqua hover:text-slsk-blue"></i>
         </a>
         <button id="nav-button" class="pl-2 xl:hidden">
             <i class="fa-solid fa-bars scale-[1.6] text-slsk-aqua hover:text-slsk-blue"></i>
@@ -47,6 +51,12 @@ import NavbarItems from "./navbar-items.astro"
         <NavbarItems />
     </ul>
     <div class="flex flex-col gap-6 mt-auto">
+        <a href="/podporte-nas/2-percenta" class="hidden sm:block button bg-slsk-orange text-center">
+            2%
+        </a>
+        <a href="/registracia" class="button mb-2">
+            Registrácia
+        </a>
         <div class="flex flex-row gap-6 items-center justify-center">
             <a aria-label="Instagram" href="https://instagram.com/modryoblak" target="_blank">
                 <i class="fa-brands fa-instagram scale-[1.6] text-slsk-aqua hover:text-slsk-blue"></i>
@@ -58,9 +68,6 @@ import NavbarItems from "./navbar-items.astro"
                 <i class="fa-regular fa-envelope scale-[1.8] text-slsk-aqua hover:text-slsk-blue"></i>
             </a>
         </div>
-        <a href="/registracia" class="button">
-            Registrácia
-        </a>
     </div>
 </nav>
 
