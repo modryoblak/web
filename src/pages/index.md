@@ -27,9 +27,13 @@ Lokality klubovní nájdete [v sekcii klubovňa](/klubovna).
 
 ## Zborový vodca
 
+<div class="flex flex-row gap-4 items-center">
+
 Náš zbor aktuálne vedie **Vendelín "Vendetta" Krasňanský**.
 
-![Vendettov portrét](/media/vendetta/modern.jpg)
+![Vendettov portrét](/media/vendetta/2025.jpg)
+
+</div>
 
 ## Naše oddiely
 
