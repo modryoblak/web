@@ -29,7 +29,9 @@ Lokality klubovní nájdete [v sekcii klubovňa](/klubovna).
 
 <div class="flex flex-row gap-4 items-center">
 
-Náš zbor aktuálne vedie **Vendelín "Vendetta" Krasňanský**.
+<p class="flex flex-col gap-3">Náš zbor aktuálne vedie <b>Vendelín "Vendetta" Krasňanský</b>
+    <a href="tel:+421917379029" aria-label="Phone"><i class="fa-solid fa-phone mt-3"></i> +421 917 379 029</a>
+</p>
 
 ![Vendettov portrét](/media/vendetta/2025.jpg)
 
@@ -37,25 +39,17 @@ Náš zbor aktuálne vedie **Vendelín "Vendetta" Krasňanský**.
 
 ## Naše oddiely
 
-V našom zbore aktuálne pôsobí **8 oddielov**:
+V našom zbore aktuálne pôsobí **6 oddielov**:
 
-<div class="grid p-8 grid-cols-2 md:grid-cols-4 md:p-0 gap-8 text-center text-xl">
+<div class="grid p-8 grid-cols-2 md:grid-cols-3 md:p-0 gap-8 text-center text-xl">
 
-<a href="/oddiel/dazd" class="flex flex-col items-center gap-1">
+<a href="/dazd" class="flex flex-col items-center gap-1">
     <div aria-hidden class="m-2 rounded-full border-[6px] border-[#fdff43] overflow-hidden">
         <img src="/media/oddiely/dazd.png" alt="" />
     </div>
     <p>1. oddiel Dažďa</p>
     <p class="text-sm text-slsk-black font-normal">7-11 rokov, Chlapci, Cajla</p>
 </a>
-
-<div class="flex flex-col items-center gap-1">
-    <div aria-hidden class="m-2 rounded-full border-[6px] border-slsk-gold overflow-hidden">
-        <img src="/media/oddiely/slnko.png" alt="" />
-    </div>
-    <p>1. oddiel Vycházajúceho slnka</p>
-    <p class="text-sm text-slsk-black font-normal">7-11 rokov, Bratislava</p>
-</div>
 
 <div class="flex flex-col items-center gap-1">
     <div aria-hidden class="m-2 rounded-full border-[6px] border-slsk-red overflow-hidden">
@@ -79,14 +73,6 @@ V našom zbore aktuálne pôsobí **8 oddielov**:
     </div>
     <p>3. oddiel Tieňov</p>
     <p class="text-sm text-slsk-black font-normal">Grinava</p>
-</div>
-
-<div class="flex flex-col items-center gap-1">
-    <div aria-hidden class="m-2 rounded-full border-[6px] border-slsk-green overflow-hidden">
-        <img src="/media/oddiely/mesiac.png" alt="" />
-    </div>
-    <p>4. oddiel Mesačného svitu</p>
-    <p class="text-sm text-slsk-black font-normal">11-15 rokov, Bratislava</p>
 </div>
 
 <div class="flex flex-col items-center gap-1">
@@ -117,4 +103,4 @@ Viac informácií o skautingu za hranicami nášho zboru nájdete
 Či už sa chceš pridať ako člen alebo dobrovoľník, radi ťa privítame v našej
 skautskej komunite.
 
-Kontaktuj nás na adrese [rada@modryoblak.sk](mailto:rada@modryoblak.sk)!
+Kontaktuj nás na adrese [zaujem@modryoblak.sk](mailto:zaujem@modryoblak.sk)!

@@ -1,10 +1,10 @@
 ---
 title: "1. oddiel Dažďa - Modrý oblak"
-layout: "../../layouts/core-layout.astro"
+layout: "../layouts/core-layout.astro"
 ---
 
 <div aria-hidden class="w-32 rounded-full border-[6px] border-[#fdff43] overflow-hidden">
-<img src="/media/oddiely/dazd.png" alt="" />
+    <img src="/media/oddiely/dazd.png" alt="" />
 </div>
 
 # 1. oddiel Dažďa
@@ -25,18 +25,19 @@ našom tíme pôsobia:
 - Zástupca vedúceho oddielu: **Jakub "Slížo" Guštafik**
 - Zástupca vedúceho oddielu: **Peter "Ypsilon" Arvay**
 - Oddielový výletník: **Vojtech "Ultrazvuk" Winter**
-- Oddielový fotograf: **Tomáš "Hluk" Mifkovič**
+- Oddielový vybavovač: **Tomáš "Hluk" Mifkovič**
 
 V našom oddiele momentálne fungujú **3 družiny**:
 
 - Siví vlci
     - Radca: **Michal "M&M" Mikulička**
+    - Podradca: **Peter "Papier" Winter**
 - Medvede
     - Radca: **Martin "Sardinka" Rajnoch**
     - Podradca: **Lukáš "Napríklad" Bouška**
 - Sokoly
-    - Radca: **Tadeáš "Kyselina" Pícha**
-    - Podradca: **Jozef "Granadír" Šmiga**
+    - Radca: **Jozef "Granadír" Šmiga**
+    - Podradca: **Karol Korček**
 
 Pre viac informácií náš môžete kontaktovať na e-mailovej adrese
 [dazd@modryoblak.sk](mailto:dazd@modryoblak.sk).

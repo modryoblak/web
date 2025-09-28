@@ -67,4 +67,4 @@ V skupine rovesníkov si skauti taktiež budujú pevné a dlhoročné priateľst
 Či už sa chceš pridať ako člen alebo dobrovoľník, radi ťa privítame v našej
 skautskej komunite.
 
-Kontaktuj nás na adrese [rada@modryoblak.sk](mailto:rada@modryoblak.sk)!
+Kontaktuj nás na adrese [zaujem@modryoblak.sk](mailto:zaujem@modryoblak.sk)!
