@@ -19,25 +19,29 @@ Pri výchovno-vzdelavácom procese využívame prevažne tzv. "**učenie hrou**"
 aby proces učenia bol pre deti v tomto veku zaujímavý, a aby si
 obsah družinoviek čo najviac užili a v dobrom zapamätali.
 
-Náš oddiel momentálne vedie **Matej "Thor" Mikulička**. Ďalej v
+Náš oddiel momentálne vedie **Jakub "Slížo" Guštafik**. Ďalej v
 našom tíme pôsobia:
 
-- Zástupca vedúceho oddielu: **Jakub "Slížo" Guštafik**
 - Zástupca vedúceho oddielu: **Peter "Ypsilon" Arvay**
+- Oddielový radca: **Martin "Sardinka" Rajnoch**
 - Oddielový výletník: **Vojtech "Ultrazvuk" Winter**
 - Oddielový vybavovač: **Tomáš "Hluk" Mifkovič**
+- Oddielový dinosaurus: **Matej "Thor" Mikulička**
 
-V našom oddiele momentálne fungujú **3 družiny**:
+V našom oddiele momentálne fungujú **4 družiny**:
 
-- Siví vlci
+- Arabské Capybary
     - Radca: **Michal "M&M" Mikulička**
     - Podradca: **Peter "Papier" Winter**
 - Medvede
     - Radca: **Martin "Sardinka" Rajnoch**
-    - Podradca: **Lukáš "Napríklad" Bouška**
+    - Podradca: **Sonic**
 - Sokoly
     - Radca: **Jozef "Granadír" Šmiga**
     - Podradca: **Karol Korček**
+- Jazvece
+    - Radca: **Lukáš "Napríklad" Bouška**
+    - Podradca: **Ján "Acidko" Čech**
 
 Pre viac informácií náš môžete kontaktovať na e-mailovej adrese
 [dazd@modryoblak.sk](mailto:dazd@modryoblak.sk).
