@@ -5,7 +5,7 @@ layout: "../../layouts/core-layout.astro"
 
 # 2%
 
-Milí rodičia, skauti, priatelia a podporovatelia,
+Milí rodičia, skauti, priatelia a podporovatelia, gumkáči a iní
 
 nesmierne si vážime Vašu neutíchajúcu pomoc a podporu, ktorú od vás rok, čo rok dostávame. Spoločnými silami sa nám aj v roku 2024 podarili úžasné veci:
 
