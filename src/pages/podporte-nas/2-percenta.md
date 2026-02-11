@@ -7,7 +7,7 @@ layout: "../../layouts/core-layout.astro"
 
 Milí rodičia, skauti, priatelia a podporovatelia,
 
-nesmierne si vážime Vašu neutíchajúcu pomoc a podporu, ktorú od vás rok, čo rok dostávame. Spoločnými silami sa nám aj v roku 2024 podarili úžasné veci:
+nesmierne si vážime Vašu neutíchajúcu pomoc a podporu, ktorú od vás rok, čo rok dostávame. Spoločnými silami sa nám aj v roku 2025 podarili úžasné veci:
 
 - vytvorili sme skautskú komunitu pre **viac ako 200 ľudí** zahŕňajúcu všetky vekovky
 - zorganizovali sme **viac ako 500 stretnutí** našich družinových a oddielových partií
@@ -26,7 +26,7 @@ nesmierne si vážime Vašu neutíchajúcu pomoc a podporu, ktorú od vás rok, 
 #### Ak ste zamestnanec
 
 - **Krok 1** – ak Vám daňové priznanie robí zamestnávateľ, do 17. 2. je potrebné požiadať ho o vykonanie ročného zúčtovania zaplatených preddavkov na daň. Na základe neho Vám zamestnávateľ vystaví [Potvrdenie o zaplatení dane](https://drive.google.com/file/d/1YYtVYOtYv0RXLaKMZELpgNPhi7nuJFjL/view?usp=drive_link).
-- **Krok 2** – stiahnite a vyplňte [Vyhlásenie o poukázaní podielu zo zaplatenej dane z príjmov](https://drive.google.com/file/d/1_XQiF7GVF98wvBZcqz2B37qeRpa-7hIK/view?usp=drive_link).
+- **Krok 2** – stiahnite a vyplňte [Vyhlásenie o poukázaní podielu zo zaplatenej dane z príjmov](https://drive.google.com/file/d/1vAZka9FCCLRAJEugJzaYa7TmsYXIriAm/view?usp=drive_link).
 - **Krok 3** – Potvrdenie o zaplatení dane a Vyhlásenie o poukázaní 2% doručte (osobne alebo poštou) na daňový úrad v mieste Vášho trvalého bydliska do 30 4.
 
 #### Ak ste SZČO
