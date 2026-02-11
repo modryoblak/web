@@ -33,9 +33,9 @@ nesmierne si vážime Vašu neutíchajúcu pomoc a podporu, ktorú od vás rok, 
 
 Môžete 2% venovať uvedením priamo vo formulári daňového priznania:
 
-**Názov (Obchodné meno)**: Slovenský skauting, 61. zbor Modrý oblak Pezinok
-**Adresa**: L. Novomeského 9, 902 01, Pezinok
-**IČO**: 31806490 (IČO sa zarovnáva sprava)
+- **Názov (Obchodné meno)**: Slovenský skauting, 61. zbor Modrý oblak Pezinok
+- **Adresa**: L. Novomeského 9, 902 01, Pezinok
+- **IČO**: 31806490 (IČO sa zarovnáva sprava)
 
 ## Pracovali ste ako dobrovoľník?
 
