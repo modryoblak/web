@@ -18,8 +18,8 @@ nesmierne si vážime Vašu neutíchajúcu pomoc a podporu, ktorú od vás rok, 
 
 ## Naše údaje
 
-**Názov**: Slovenský skauting, 61. zbor Modrý oblak Pezinok
-**IČO**: 31806490
+- **Názov**: Slovenský skauting, 61. zbor Modrý oblak Pezinok
+- **IČO**: 31806490
 
 ## Postup pri darovaní
 
