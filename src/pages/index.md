@@ -29,11 +29,11 @@ Lokality klubovní nájdete [v sekcii klubovňa](/klubovna).
 
 <div class="flex flex-row gap-4 items-center">
 
-<p class="flex flex-col gap-3">Náš zbor aktuálne vedie <b>Vendelín "Vendetta" Krasňanský</b>
-    <a href="tel:+421917379029" aria-label="Phone"><i class="fa-solid fa-phone mt-3"></i> +421 917 379 029</a>
+<p class="flex flex-col gap-3">Náš zbor aktuálne vedie <b>Miroslav Virgovič "Veterinár"</b>
+    <a href="tel:+421904603361" aria-label="Phone"><i class="fa-solid fa-phone mt-3"></i> +421 904 603 361</a>
 </p>
 
-![Vendettov portrét](/media/vendetta/2025.jpg)
+![Veterinárov portrét](/media/veterinar/2025.jpg)
 
 </div>
 
