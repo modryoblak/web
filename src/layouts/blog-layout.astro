@@ -24,6 +24,8 @@ const { frontmatter } = Astro.props;
     { frontmatter.foot && <section class="foot italic text-left w-full pt-6">
         { (frontmatter.foot || []).map((foot: string) => <p>{foot}</p>) }
     </section> }
+
+    <p>Chceš vedieť viac o tom, čo sa deje v našom zbore? Pozri si <a href="/blog">👉 ďalšie články</a>!</p>
 </CoreLayout>
 
 <style>
