@@ -13,6 +13,7 @@ o čosi hlbšie do histórie.
 Náš skautský zbor má viac ako 200 členov a od roku 2020 sme
 najväčší skautský zbor v Bratislavskom kraji. Stabilne si tiež držíme
 miesto v **top 3** najväčších zboroch na Slovensku.
+[**Venovať 2% a podporiť nás môžeťe tu.**](/podporte-nas/index.md)
 
 ![Táborisko](/media/landscape/camp1.png)
 
