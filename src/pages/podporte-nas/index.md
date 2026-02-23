@@ -5,7 +5,7 @@ layout: "../../layouts/core-layout.astro"
 
 # Podporte nás
 
-Všetko čo robíme, môžeme robiť aj vďaka Vám a Vašej podpore. Každú pomoc si neskutočne vážime a úprimne za ňu ďakujeme. 😁
+Všetko čo robíme, môžeme robiť aj vďaka Vám a Vašej podpore. Každú pomoc si neskutočne vážime a úprimne za ňu ďakujeme :)
 
 ## Finančná podpora
 
