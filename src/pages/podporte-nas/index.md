@@ -11,7 +11,7 @@ Všetko čo robíme, môžeme robiť aj vďaka Vám a Vašej podpore. Každú po
 
 **Finančne nás môžete podporiť rôznymi spôsobmi:**
 
-- [Darujte nám 2%](/podporte-nas/2-percenta)
+- [Darujte nám **2%**](/podporte-nas/2-percenta)
 - [Venujte nám pravidelný alebo jednorazový dar](https://61zborskauting.darujme.sk/podporte-pezinskych-skautov-83a30/)
 - [Staňte sa naším členom](/registracia)
 
