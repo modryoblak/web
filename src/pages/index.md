@@ -16,6 +16,8 @@ miesto v **top 3** najväčších zboroch na Slovensku.
 
 ![Táborisko](/media/landscape/camp1.png)
 
+![Capybara](/capybara-mog.png)
+
 O skauting je veľký záujem, preto náš skautský zbor aktuálne pôsobí v
 štyroch lokalitách:
 - **Pezinok, Cajla**
