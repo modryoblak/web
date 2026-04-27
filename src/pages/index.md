@@ -8,23 +8,19 @@ layout: "../layouts/core-layout.astro"
 
 Skauting má v Pezinku dlhoročnú tradíciu. Bez prerušenia činnosti tu fungujeme
 už viac ako **35 rokov**. Počiatky skautingu v Pezinku však siahajú ešte
-o čosi hlbšie do histórie.
+o čosi hlbšie do histórie. Náš skautský zbor má momentálne viac ako
+**140 členov**.
 
-Náš skautský zbor má viac ako 200 členov a od roku 2020 sme
-najväčší skautský zbor v Bratislavskom kraji. Stabilne si tiež držíme
-miesto v **top 3** najväčších zboroch na Slovensku.
-[**Venovať 2% a podporiť nás môžeťe tu.**](/podporte-nas/2-percenta)
+[👉 Podporte nás a venujte nám Vaše **2%**](/podporte-nas/2-percenta)
 
 ![Táborisko](/media/landscape/camp1.png)
 
-O skauting je veľký záujem, preto náš skautský zbor aktuálne pôsobí v
-štyroch lokalitách:
+Náš skautský zbor aktuálne pôsobí v **troch lokalitách**:
 - **Pezinok, Cajla**
 - Pezinok, Grinava
 - Viničné
-- SZŠ Felix Bratislava
 
-Lokality klubovní nájdete [v sekcii klubovňa](/klubovna).
+Lokality klubovní nájdete v sekcii [klubovňa](/klubovna).
 
 ## Zborový vodca
 
@@ -34,7 +30,7 @@ Lokality klubovní nájdete [v sekcii klubovňa](/klubovna).
     <a href="tel:+421904603361" aria-label="Phone"><i class="fa-solid fa-phone mt-3"></i> +421 904 603 361</a>
 </p>
 
-![Veterinárov portrét](/media/veterinar/2025.jpg)
+![Veterinár](/media/veterinar/2025.jpg)
 
 </div>
 
@@ -94,10 +90,10 @@ V našom zbore aktuálne pôsobí **6 oddielov**:
 
 </div>
 
-## Skauting na Slovensku a vo svete
+## Viac o skautingu
 
-Viac informácií o skautingu za hranicami nášho zboru nájdete
-[v sekcii skauting](/skauting).
+Viac informácií o skautingu, jeho hodnotách a čo ponúka nájdete
+v sekcii [skauting](/skauting).
 
 ## Pridaj sa k nám!
 
