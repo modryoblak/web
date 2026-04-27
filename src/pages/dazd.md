@@ -43,5 +43,5 @@ V našom oddiele momentálne fungujú **4 družiny**:
     - Radca: **Lukáš Bouška "Napríklad"**
     - Podradca: **Ján Čech "Acidko"**
 
-Pre viac informácií náš môžete kontaktovať na e-mailovej adrese
+Pre viac informácií nás môžete kontaktovať na e-mailovej adrese
 [dazd@modryoblak.sk](mailto:dazd@modryoblak.sk).
