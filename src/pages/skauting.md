@@ -56,7 +56,7 @@ Viac o tom, k čomu vychováva **skautský program** si môžete prečítať [tu
 
 Našu skautskú komunitu tvoria ľudia každého veku. Napriek vekovým rozdielom fungujeme na veľmi neformálnej báze, preto si všetci tykáme.
 
-Na skauting prijímame deti od veku 6 rokov, ted od začiatku školskej dochádzky. Nie je však vôbec výnimkou, že sa k nám niekto pridá neskôr.
+Na skauting prijímame deti od veku 6 rokov, teda od začiatku školskej dochádzky. Nie je však vôbec výnimkou, že sa k nám niekto pridá neskôr.
 
 Každá veková kategória má program prispôsobený svojmu veku a záujmom, aby skautská činnosť našich členov bavila a zároveň rozvíjala.
 
