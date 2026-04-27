@@ -19,29 +19,29 @@ Pri výchovno-vzdelavácom procese využívame prevažne tzv. "**učenie hrou**"
 aby proces učenia bol pre deti v tomto veku zaujímavý, a aby si
 obsah družinoviek čo najviac užili a v dobrom zapamätali.
 
-Náš oddiel momentálne vedie **Jakub "Slížo" Guštafik**. Ďalej v
+Náš oddiel momentálne vedie **Jakub Guštafik "Slížo"**. Ďalej v
 našom tíme pôsobia:
 
-- Zástupca vedúceho oddielu: **Peter "Ypsilon" Arvay**
-- Oddielový radca: **Martin "Sardinka" Rajnoch**
-- Oddielový výletník: **Vojtech "Ultrazvuk" Winter**
-- Oddielový vybavovač: **Tomáš "Hluk" Mifkovič**
-- Oddielový dinosaurus: **Matej "Thor" Mikulička**
+- Zástupca vedúceho oddielu: **Peter Arvay "Ypsilon"**
+- Oddielový radca: **Martin Rajnoch "Sardinka"**
+- Oddielový výletník: **Vojtech Winter "Ultrazvuk"**
+- Oddielový vybavovač: **Tomáš Mifkovič "Hluk"**
+- Oddielový dinosaurus: **Matej Mikulička "Thor"**
 
 V našom oddiele momentálne fungujú **4 družiny**:
 
 - Arabské Capybary
-    - Radca: **Michal "M&M" Mikulička**
-    - Podradca: **Peter "Papier" Winter**
+    - Radca: **Michal Mikulička "M&M"**
+    - Podradca: **Peter Winter "Papier"**
 - Medvede
-    - Radca: **Martin "Sardinka" Rajnoch**
+    - Radca: **Martin Rajnoch "Sardinka"**
     - Podradca: **Sonic**
 - Sokoly
-    - Radca: **Jozef "Granadír" Šmiga**
+    - Radca: **Jozef Šmiga "Granadír"**
     - Podradca: **Karol Korček**
 - Jazvece
-    - Radca: **Lukáš "Napríklad" Bouška**
-    - Podradca: **Ján "Acidko" Čech**
+    - Radca: **Lukáš Bouška "Napríklad"**
+    - Podradca: **Ján Čech "Acidko"**
 
 Pre viac informácií náš môžete kontaktovať na e-mailovej adrese
 [dazd@modryoblak.sk](mailto:dazd@modryoblak.sk).
