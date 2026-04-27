@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.2",
-    "@astrojs/tailwind": "^5.1.2",
-    "astro": "^5.4.2",
+    "@astrojs/tailwind": "^6.0.2",
+    "astro": "^5.18.1",
     "astro-seo": "^0.8.4",
-    "tailwindcss": "^3.4.1",
+    "tailwindcss": "^3.4.19",
     "typescript": "^5.3.3"
   }
 }
